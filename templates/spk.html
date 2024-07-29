@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaking Assistant with Ball Visualizer</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+        }
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+            overflow: hidden;
+        }
+    
+        #mic-button,
+        .nav-button {
+            position: absolute;
+            bottom: 20px;
+            padding: 12px 20px;
+            background-color: #565657;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+    
+        #mic-button:hover,
+        .nav-button:hover {
+            background-color: #0056b3;
+        }
+        
+        #mic-button:active,
+        .nav-button:active {
+            background-color: #003d7a;
+            transform: scale(0.95);
+        }
+
+        #mic-button.long-press {
+            background-color: red;
+            color: white;
+        }
+    
+        #visualizer {
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    
+        .nav-button {
+            left: 20px;
+            background-color: #fff;
+            color: black;
+        }
+    
+        #mic-button {
+            right: 20px;
+        }
+    
+        @media (max-width: 600px) {
+            #mic-button,
+            .nav-button {
+                padding: 8px 16px;
+                font-size: 14px;
+                bottom: 10px;
+            }
+    
+            .nav-button {
+                left: 10px;
+            }
+    
+            #mic-button {
+                right: 10px;
+            }
+        }
+    
+        @media (max-width: 400px) {
+            #mic-button,
+            .nav-button {
+                padding: 6px 12px;
+                font-size: 12px;
+                bottom: 5px;
+            }
+    
+            .nav-button {
+                left: 5px;
+            }
+    
+            #mic-button {
+                right: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="visualizer"></canvas>
+    <button id="mic-button"><span class="material-symbols-outlined" id="mic-icon">stop</span></button>
+    <button class="nav-button" onclick="window.location.href='/'"><span class="material-symbols-outlined">chat</span></button>
+
+    <script>
+        const canvas = document.getElementById('visualizer');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const ball = {
+            x: canvas.width / 2,
+            y: canvas.height / 2,
+            radius: 50,
+            targetRadius: 50,
+            color: 'white',
+            shadowColor: 'rgba(0, 0, 0, 0.5)',
+            shadowBlur: 20
+        };
+
+        let audioCtx = null;
+        let analyser = null;
+        let source = null;
+        let stream = null;
+
+        function drawBackground(dataArray) {
+            if (dataArray) {
+                let gradient = ctx.createRadialGradient(
+                    canvas.width / 2, canvas.height / 2, 0,
+                    canvas.width / 2, canvas.height / 2, canvas.width / 2
+                );
+
+                const maxVolume = Math.max(...dataArray);
+                const colorValue = Math.floor(maxVolume);
+
+                gradient.addColorStop(0, `rgba(${colorValue}, 0, ${255 - colorValue}, 0.5)`);
+                gradient.addColorStop(1, `rgba(0, 0, 0, 0.5)`);
+
+                ctx.fillStyle = gradient;
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+            } else {
+                // Clear the background
+                ctx.fillStyle = 'black';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+            }
+        }
+
+        function drawBall() {
+            ctx.beginPath();
+            ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2, false);
+            ctx.fillStyle = ball.color;
+            ctx.shadowColor = ball.shadowColor;
+            ctx.shadowBlur = ball.shadowBlur;
+            ctx.fill();
+            ctx.closePath();
+        }
+
+        function updateBall(dataArray) {
+            if (dataArray) {
+                const maxVolume = Math.max(...dataArray);
+                ball.targetRadius = 50 + maxVolume / 4;
+                ball.radius += (ball.targetRadius - ball.radius) * 0.1; // Smooth transition
+
+                const averageFrequency = dataArray.reduce((sum, value) => sum + value, 0) / dataArray.length;
+                const colorValue = Math.floor(averageFrequency);
+                ball.color = `rgb(${colorValue}, ${100 + colorValue}, ${255 - colorValue})`; // Smooth color change
+            }
+        }
+
+        async function startVisualization() {
+            stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            source = audioCtx.createMediaStreamSource(stream);
+            analyser = audioCtx.createAnalyser();
+
+            analyser.fftSize = 256;
+            const bufferLength = analyser.frequencyBinCount;
+            const dataArray = new Uint8Array(bufferLength);
+
+            source.connect(analyser);
+
+            function animate() {
+                requestAnimationFrame(animate);
+                analyser.getByteFrequencyData(dataArray);
+                drawBackground(dataArray);
+                updateBall(dataArray);
+                drawBall();
+            }
+
+            animate();
+        }
+
+        let micOn = false;
+        let recognition = null;
+        let longPressTimer = null;
+        let visualizationStarted = false; // Add this variable
+
+        document.getElementById('mic-button').addEventListener('mousedown', async () => {
+            longPressTimer = setTimeout(async () => {
+                if (!('webkitSpeechRecognition' in window)) {
+                    alert('Speech recognition is not supported in this browser.');
+                    return;
+                }
+
+                micOn = true;
+                const micIcon = document.getElementById('mic-icon');
+                micIcon.textContent = 'mic';
+
+                // Change button background color
+                document.getElementById('mic-button').classList.add('long-press');
+
+                recognition = new webkitSpeechRecognition();
+                recognition.lang = 'en-US';
+                recognition.interimResults = false;
+                recognition.maxAlternatives = 1;
+
+                recognition.start();
+                if (!visualizationStarted) {
+                    await startVisualization();
+                    visualizationStarted = true;
+                }
+
+                recognition.onresult = async (event) => {
+                    const message = event.results[0][0].transcript;
+                    const response = await fetch('/chat', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ message })
+                    });
+                    const data = await response.json();
+                    speakText(data.text);
+                };
+
+                recognition.onerror = (event) => {
+                    console.error('Speech recognition error:', event.error);
+                };
+
+                recognition.onend = () => {
+                    console.log('Speech recognition service disconnected');
+                };
+            }, 1000); // Long press duration in milliseconds
+        });
+
+        document.getElementById('mic-button').addEventListener('mouseup', () => {
+            clearTimeout(longPressTimer);
+            if (recognition && micOn) {
+                recognition.stop();
+                const micIcon = document.getElementById('mic-icon');
+                micIcon.textContent = 'stop';
+                micOn = false;
+
+                // Remove button background color
+                document.getElementById('mic-button').classList.remove('long-press');
+            }
+        });
+
+        document.getElementById('mic-button').addEventListener('mouseleave', () => {
+            clearTimeout(longPressTimer);
+            if (recognition && micOn) {
+                recognition.stop();
+                const micIcon = document.getElementById('mic-icon');
+                micIcon.textContent = 'stop';
+                micOn = false;
+
+                // Remove button background color
+                document.getElementById('mic-button').classList.remove('long-press');
+            }
+        });
+
+        function cleanText(text) {
+            const unnecessaryWords = ['um', 'uh', 'like', 'you know', 'so', 'actually'];
+            let cleanedText = text;
+            unnecessaryWords.forEach(word => {
+                cleanedText = cleanedText.replace(new RegExp(`\\b${word}\\b`, 'g'), '');
+            });
+            return cleanedText.trim();
+        }
+
+        function speakText(text) {
+            const cleanedText = cleanText(text);
+            if (cleanedText) {
+                const speech = new SpeechSynthesisUtterance(cleanedText);
+                speech.lang = 'en-US';
+
+                // Adjust pitch and rate based on emotion or context
+                const emotion = detectEmotion(cleanedText); // A function you might want to implement
+
+                switch (emotion) {
+                    case 'happy':
+                        speech.pitch = 9; // Higher pitch for happy
+                        speech.rate = 1.2;  // Slightly faster for excitement
+                        break;
+                    case 'sad':
+                        speech.pitch = 9; // Lower pitch for sad
+                        speech.rate = 0.8;  // Slower for sadness
+                        break;
+                    case 'angry':
+                        speech.pitch = 9; // Higher pitch for anger
+                        speech.rate = 1.0;  // Normal rate
+                        break;
+                    default:
+                        speech.pitch = 9; // Higher pitch for a more feminine voice
+                        speech.rate = 0.8;  // Default rate
+                        break;
+                }
+
+                // Try to select a feminine voice
+                const voices = window.speechSynthesis.getVoices();
+                const femaleVoice = voices.find(voice => voice.name.toLowerCase().includes('female') || voice.name.toLowerCase().includes('woman'));
+                if (femaleVoice) {
+                    speech.voice = femaleVoice;
+                }
+
+                speechSynthesis.speak(speech);
+            }
+        }
+
+        // Function to detect emotion from text (basic example)
+        function detectEmotion(text) {
+            // Basic emotion detection logic (expand as needed)
+            if (text.includes('happy') || text.includes('great') || text.includes('wonderful')) {
+                return 'happy';
+            } else if (text.includes('sad') || text.includes('bad') || text.includes('unfortunate')) {
+                return 'sad';
+            } else if (text.includes('angry') || text.includes('furious') || text.includes('upset')) {
+                return 'angry';
+            } else {
+                return 'neutral';
+            }
+        }
+    </script>
+</body>
+</html>

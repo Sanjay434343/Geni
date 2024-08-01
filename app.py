@@ -7,6 +7,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 import random
 import requests
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -29,19 +30,12 @@ for intent in intents['intents']:
         if intent['intent'] not in classes:
             classes.append(intent['intent'])
 
-words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ['?', '!']]
+words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ['?', '!' , '€']]
 words = sorted(list(set(words)))
 classes = sorted(list(set(classes)))
 
-# List of trademarked phrases or terms
-TRADEMARKED_PHRASES = [
-    "your trademarked phrase",
-    "another trademarked term",
-    "example trademarked term"
-]
-
 # Special symbols to ignore or replace
-SYMBOLS_TO_IGNORE = ['®', '™']
+SYMBOLS_TO_IGNORE = ['®', '™' , '€']
 
 @app.route('/')
 def home():
@@ -55,39 +49,35 @@ def speak():
 def chat():
     message = request.json['message']
     
-    # Clean message and check for trademarked phrases
+    # Clean message
     cleaned_message = clean_up_message(message)
-    if contains_trademarked_phrases(cleaned_message):
-        return jsonify({"text": "Your message contains trademarked terms and cannot be processed."})
     
     ints = predict_class(cleaned_message)
     response = get_response(ints, intents)
     
-    # Check if the response requires weather info
+    # Check if the response requires weather info or time
     if "WeatherQuery" in [intent['intent'] for intent in ints]:
         city = extract_city(message)
         weather_response = get_weather(city)
         response = weather_response
+    elif "TimeQuery" in [intent['intent'] for intent in ints]:
+        current_time = get_current_time()
+        response = {"text": f"The current time is {current_time}."}
     
     # Clean response text
     response["text"] = clean_up_message(response["text"])
     
     return jsonify(response)
 
-def contains_trademarked_phrases(message):
-    # Convert message to lowercase for case-insensitive comparison
-    message = message.lower()
-    return any(phrase in message for phrase in TRADEMARKED_PHRASES)
-
 def clean_up_message(message):
     # Remove specific special characters and symbols
-    message = re.sub(r'[\'":;,.]', '', message)
+    message = re.sub(r'[\'":;,.€]', '', message)
     for symbol in SYMBOLS_TO_IGNORE:
         message = message.replace(symbol, '')
     return message
 
 def clean_up_sentence(sentence):
-    sentence = re.sub(r'[\'":;,.]', '', sentence)
+    sentence = re.sub(r'[\'":;,.€]', '', sentence)
     sentence_words = nltk.word_tokenize(sentence)
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
     return sentence_words
@@ -140,6 +130,10 @@ def get_weather(city):
         return {
             "text": f"Sorry, I couldn't retrieve the weather information for {city}."
         }
+
+def get_current_time():
+    now = datetime.now()
+    return now.strftime("%I:%M:%S %p")
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -71,7 +71,7 @@ model.add(Dense(len(classes), activation='softmax'))
 model.compile(optimizer=SGD(learning_rate=0.01, momentum=0.9), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 # Train the model
-model.fit(training_sentences, training_labels, epochs=200, batch_size=5, verbose=1)
+model.fit(training_sentences, training_labels, epochs=1000, batch_size=10, verbose=1)
 
 # Save the model
 model.save('chatbot_model.h5')

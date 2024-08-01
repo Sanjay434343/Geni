@@ -1,178 +1,141 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Interface</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <style>
-        .material-symbols-outlined {
-            font-variation-settings:
-            'FILL' 0,
-            'wght' 400,
-            'GRAD' 0,
-            'opsz' 24
-        }
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-            background-size: 400% 400%;
-            animation: gradient 15s ease infinite;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        @keyframes gradient {
-            0% {
-                background-position: 0% 50%;
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chat Interface</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+            .material-symbols-outlined {
+                font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
             }
-            50% {
-                background-position: 100% 50%;
+            body {
+                font-family: 'Roboto', sans-serif;
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                background: linear-gradient(-95deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+                background-size: 400% 400%;
+                animation: gradient 15s ease infinite;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
-            100% {
-                background-position: 0% 50%;
+
+            @keyframes gradient {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
             }
-        }
 
-        #chat-container {
-            backdrop-filter: blur(100px);
-            width: 100%;
-            max-width: 1600px;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            background-color: #000000B0;
-            border-radius: 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+            #chat-container {
+                backdrop-filter: blur(100px);
+                width: 100%;
+                max-width: 1600px;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                background-color: #FFFFFF;
+                border-radius: 0;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
 
-        #chatbox {
-            flex: 1;
-            padding: 20px;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+            #chatbox {
+                flex: 1;
+                padding: 20px;
+                overflow-y: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
 
-        .message {
-            max-width: 70%;
-            padding: 10px;
-            border-radius: 10px;
-            word-wrap: break-word;
-            opacity: 0;
-            animation: fadeIn 0.5s forwards;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .user {
-            background-color: #dcf8c6;
-            align-self: flex-end;
-        }
-
-        .bot {
-            background-color: #e5e5e5;
-            align-self: flex-start;
-        }
-
-        #input-container {
-            display: flex;
-            padding: 10px;
-            background-color: #55404000;
-        }
-
-        #input {
-            flex: 1;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 20px;
-            margin-right: 10px;
-            font-size: 16px;
-        }
-
-        button {
-            padding: 10px 20px;
-            background-color: #9292927D;
-            color: white;
-            border: none;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        button:hover {
-            background-color: #128c7e;
-        }
-
-        @keyframes fadeIn {
-            from {
+            .message {
+                max-width: 70%;
+                padding: 10px;
+                border-radius: 10px;
+                word-wrap: break-word;
                 opacity: 0;
+                animation: fadeIn 0.5s forwards;
+                display: flex;
+                align-items: center;
+                gap: 10px;
             }
-            to {
-                opacity: 1;
+
+            .user {
+                background-color: #BCFFBF;
+
+                align-self: flex-end;
+                border:1px solid #8DC890;
+                color: black;
+
             }
-        }
 
-        .tabs {
-            display: flex;
-            justify-content: space-around;
-            background-color: #53535300;
-            padding: 10px;
-            color: white;
-            border-bottom: 1px solid #272727;
-        }
+            .bot {
+                background-color: #BCF7FF;
 
-        .tab {
-            cursor: pointer;
-            padding: 10px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
+                align-self: flex-start;
+                border:1px solid #8DC8C5;
+                color: black;
 
-        .tab:hover {
-            background-color: #0e6f5c;
-        }
+            }
 
-        #chat-tab{
-            position:relative;
-            left:-350px;
-            padding:17px;
-            background-color: #85787836;
-            border-radius:20px;
-        }
+            #input-container {
+                display: flex;
+                padding: 10px;
+                background-color: #55404000;
+            }
 
-        #chat-tab:hover{
-            background-color: #4E6BCBA4;
-            border-radius:20px;
-        }
+            #input {
+                flex: 1;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 20px;
+                margin-right: 10px;
+                font-size: 16px;
+            }
 
-        #spk-tab{
-            position:relative;
-            right:-350px;
-            padding:17px;
-            background-color: #85787836;
-            border-radius:20px;
-        }
+            button {
+                padding: 10px 20px;
+                background-color: #000000;
+                color: white;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+                font-size: 16px;
+                text-align: center;
+                display: flex; /* Use Flexbox for alignment */
+                align-items: center; /* Center items vertically */
+                justify-content: center; /* Center items horizontally */
+            }
+            
+            button:hover {
+                background-color: #080808;
+            }
+            
 
-        #spk-tab:hover{
-            background-color: #4E6BCBA4;
-            border-radius:20px;
-        }
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
 
-        #send{
-            font-size:22px;
-            font-weight:bold;
-        }
-
-        @media (min-width:300px){
             .tabs {
+                display: flex;
                 justify-content: space-around;
                 background-color: #53535300;
                 padding: 10px;
@@ -180,103 +143,157 @@
                 border-bottom: 1px solid #272727;
             }
 
+            .tab {
+                cursor: pointer;
+                padding: 10px;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+
+            .tab:hover {
+                background-color: #0e6f5c;
+            }
+
             #chat-tab{
                 position:relative;
-                left:-2px;
-                width:100%;
-                text-align:center;
+                left:-350px;
                 padding:17px;
                 background-color: #85787836;
+                border-radius:20px;
+            }
+
+            #chat-tab:hover{
+                background-color: #000000A4;
                 border-radius:20px;
             }
 
             #spk-tab{
                 position:relative;
-                right:-3px;
-                text-align:center;
+                right:-350px;
                 padding:17px;
-                width:100%;
                 background-color: #85787836;
                 border-radius:20px;
             }
-        }
-    </style>
-</head>
-<body>
-    <div id="chat-container">
-        <div class="tabs">
-            <div id="chat-tab" class="tab active">
-                <span class="material-symbols-outlined">
-                    chat
-                </span>
-            </div>
-            <div id="spk-tab" class="tab">
-                <span class="material-symbols-outlined">
-                    graphic_eq
-                </span>
-            </div>
-        </div>
-        <div id="chatbox">
-            <!-- Chat messages will be appended here -->
-        </div>
-        <div id="input-container">
-            <input id="input" type="text" placeholder="Type a message..." />
-            <button id="send">→</button>
-        </div>
-    </div>
-    <script>
-        function sanitizeText(text) {
-            // Remove special characters except letters, numbers, spaces, and basic punctuation
-            return text.replace(/[^a-zA-Z0-9\s.,?!'"]/g, '');
-        }
 
-        document.getElementById('send').addEventListener('click', async () => {
-            const input = document.getElementById('input');
-            let message = input.value.trim();
-            if (!message) {
-                message = 'hi user'; // Default message when input is empty
+            #spk-tab:hover{
+                background-color: #000000A4;
+                border-radius:20px;
             }
-            message = sanitizeText(message);
-            appendMessage('user', message);
-            input.value = '';
-            const response = await fetch('/chat', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ message })
+
+            #send{
+                font-size:22px;
+                font-weight:bold;
+            }
+
+            @media (min-width:300px){
+                .tabs {
+                    justify-content: space-around;
+                    background-color: #53535300;
+                    padding: 10px;
+                    color: white;
+                    border-bottom: 1px solid #272727;
+                }
+
+                #chat-tab{
+                    position:relative;
+                    left:-2px;
+                    width:100%;
+                    text-align:center;
+                    padding:17px;
+                    background-color: #000000;
+                    border-radius:20px;
+                }
+
+                #spk-tab{
+                    position:relative;
+                    right:-3px;
+                    text-align:center;
+                    padding:17px;
+                    width:100%;
+                    background-color: #000000;
+
+                    border-radius:20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="chat-container">
+            <div class="tabs">
+                <div id="chat-tab" class="tab active">
+                    <span class="material-symbols-outlined">
+                        chat
+                    </span>
+                </div>
+                <div id="spk-tab" class="tab">
+                    <span class="material-symbols-outlined">
+                        graphic_eq
+                    </span>
+                </div>
+            </div>
+            <div id="chatbox">
+                <!-- Chat messages will be appended here -->
+            </div>
+            <div id="input-container">
+                <input id="input" type="text" placeholder="Type a message..." />
+                <button id="send"><span class="material-symbols-outlined">
+                    send
+                    </span></button>
+            </div>
+        </div>
+        <script>
+            function sanitizeText(text) {
+                // Remove special characters except letters, numbers, spaces, and basic punctuation
+                return text.replace(/[^a-zA-Z0-9\s.,?!'"]/g, '');
+            }
+
+            document.getElementById('send').addEventListener('click', async () => {
+                const input = document.getElementById('input');
+                let message = input.value.trim();
+                if (!message) {
+                    message = 'hi user'; // Default message when input is empty
+                }
+                message = sanitizeText(message);
+                appendMessage('user', message);
+                input.value = '';
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message })
+                });
+                const data = await response.json();
+                const botMessage = sanitizeText(data.text);
+                appendMessage('bot', botMessage);
             });
-            const data = await response.json();
-            const botMessage = sanitizeText(data.text);
-            appendMessage('bot', botMessage);
-        });
 
-        document.getElementById('input').addEventListener('keypress', (event) => {
-            if (event.key === 'Enter') {
-                event.preventDefault();
-                document.getElementById('send').click();
+            document.getElementById('input').addEventListener('keypress', (event) => {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    document.getElementById('send').click();
+                }
+            });
+
+            function appendMessage(type, text) {
+                const chatbox = document.getElementById('chatbox');
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `message ${type}`;
+                messageDiv.textContent = text;
+                chatbox.appendChild(messageDiv);
+                chatbox.scrollTop = chatbox.scrollHeight;
             }
-        });
 
-        function appendMessage(type, text) {
-            const chatbox = document.getElementById('chatbox');
-            const messageDiv = document.createElement('div');
-            messageDiv.className = `message ${type}`;
-            messageDiv.textContent = text;
-            chatbox.appendChild(messageDiv);
-            chatbox.scrollTop = chatbox.scrollHeight;
-        }
+            // Append "hi user" message from the bot when the chat interface loads
+            window.addEventListener('DOMContentLoaded', () => {
+                appendMessage('bot', 'Hi, I am Geni. What can I do for you?');
+            });
 
-        // Append "hi user" message from the bot when the chat interface loads
-        window.addEventListener('DOMContentLoaded', () => {
-            appendMessage('bot', 'Hi, I am Geni. What can I do for you?');
-        });
+            document.getElementById('spk-tab').addEventListener('click', () => {
+                window.location.href = '/spk';
+            });
 
-        document.getElementById('spk-tab').addEventListener('click', () => {
-            window.location.href = '/spk';
-        });
-
-        document.getElementById('chat-tab').addEventListener('click', () => {
-            window.location.href = '/';
-        });
-    </script>
-</body>
-</html>
+            document.getElementById('chat-tab').addEventListener('click', () => {
+                window.location.href = '/';
+            });
+        </script>
+    </body>
+    </html>

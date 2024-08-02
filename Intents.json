@@ -1242,55 +1242,8 @@
                   "text": [
                         "fuck off",
         "fuck",
-        "twat",
-        "shit",
-        "bastard",
-        "asshole",
-        "cunt",
-        "dickhead",
-        "piss off",
-        "motherfucker",
-        "goddamn",
-        "bloody hell",
-        "wanker",
-        "prick",
-        "arsehole",
-        "fucker",
-        "shithead",
-        "son of a bitch",
-        "damn",
-        "slut",
-        "cock",
-        "tits",
-        "piss",
-        "bollocks",
-        "fag",
-        "faggot",
-        "whore",
-        "shitty",
-        "screw you",
-        "kiss my ass",
-        "ass",
-        "crap",
-        "stupid",
-        "retard",
-        "dumbass",
-        "bitch",
-        "cocksucker",
-        "fuckface",
-        "douchebag",
-        "dumbfuck",
-        "shitbag",
-        "shithead",
-        "cuntface",
-        "motherfucker",
-        "pussy",
-        "twatface",
-        "arsewipe",
-        "prickhead",
-        "suck my dick",
-        "dumbshit",
-        "buttfucker"
+        "shit"
+        
                   ],
                   "responses": [
                         "Please do not swear",
@@ -7012,6 +6965,8 @@
                 {
                   "intent": "TamilLanguageHistory",
                   "text": [
+                    "tamil",
+                    "Do you no tamil",
                     "Tell me about Tamil language",
                     "What is Tamil language?",
                     "Give me some information about Tamil",
@@ -7151,6 +7106,7 @@
                     "Development of Tamil language and its impact"
                   ],
                   "responses": [
+                    "yeha but i did't speak tamil language",
                     "Tamil is a Dravidian language predominantly spoken in Tamil Nadu, India, and northern Sri Lanka. It is one of the oldest living languages in the world with a rich literary tradition dating back over 2,000 years.",
                     "The Tamil language has a history that spans more than two millennia. It is recognized as one of the classical languages of India and has a vast body of literature, including ancient texts such as Sangam poetry.",
                     "Tamil is a language with ancient roots and a long history. It is spoken by millions of people in southern India and Sri Lanka and has a significant cultural and literary heritage.",
@@ -7363,14 +7319,160 @@
                     "The history of Tamil language and literature includes significant contributions from various historical periods. It provides insights into the cultural and literary developments of Tamil society.",
                     "Tamil has a classical status and is known for its rich literary heritage. Its history includes ancient texts, literary works, and cultural contributions.",
                     "The historical context of Tamil language includes a wide range of texts and works that provide insights into the cultural and historical developments of Tamil-speaking regions."
-                ],
-                "amount": 40
+                ]
+            },
+
+            {
+                  "intent": "Smile",
+                  "text": [
+                       "smile please",
+                        "Make a smile",
+                        "smile geni"
+                    ],
+                    "responses": [
+                      "HA HA HA",
+                      "HE HE HE",
+                      "HAA HA HO HO HEEEE"
+                    ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "intent": "Cry",
+                  "text": [
+                       "Cry please",
+                        "Cry a smile",
+                        "Cry geni"
+                    ],
+                    "responses": [
+                      "WAAH WAAH WAAH",
+                      "W00H W00H W00H",
+                      "Wooooo woooo wooo"
+                    ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+
+            {
+                  "intent": "Hungry-growl",
+                  "text": [
+                       "hugry growl please",
+                        "Make a growl",
+                        "growl geni"
+                    ],
+                    "responses": [
+                      "GRRR GRRR GRRR",
+                      "GiRRR GiRRR GiRRR",
+                      "GoRRR G0RRR G0RRR"
+                    ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "intent": "Fart",
+                  "text": [
+                       "fart please",
+                        "fart a smile",
+                        "fart geni"
+                    ],
+                    "responses": [
+                      "PFFFT PFFFT PFFFT",
+                      "pir pir pir",
+                      "tur tur tur"
+                    ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "intent": "Sigh",
+                  "text": [
+                       "Sigh please",
+                        "Sigh a smile",
+                        "Sigh geni"
+                    ],
+                    "responses": [
+                      "SIGH SIGH SIGH",
+                      "SIGH SIGH SIGH SIGH SIGH SIGH"
+                  
+                    ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "intent": "Relax",
+                  "text": [
+                       "Relax please",
+                        "Relax a smile",
+                        "Relax geni"
+                    ],
+                    "responses": [
+                      "uush uush uush ",
+                      "uush uush uush uush uush ush ush ush ush ush ush ush "
+                    ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
             }
-            
-            
-              
-              
-              
+  
       ]
 }
 

@@ -1,0 +1,2898 @@
+{
+    "intent": "TouristPlaces",
+    "text": [
+      "Tell me about tourist places in {country}",
+      "What are the top tourist attractions in {country}?",
+      "Give me some tourist spots in {country}",
+      "I want to know popular places to visit in {country}",
+      "What can I visit in {country}?"
+    ],
+    "responses": [
+      {
+        "country": "Afghanistan",
+        "places": [
+          "Kabul Museum",
+          "Bamyan Buddhas",
+          "Minaret of Jam",
+          "Band-e Amir National Park",
+          "Kabul's Old City",
+          "Herat Citadel",
+          "Shahr-e Gholghola",
+          "Zarghuna Ana Shrine",
+          "Panjshir Valley",
+          "Qala-e Bost"
+        ]
+      },
+      {
+        "country": "Albania",
+        "places": [
+          "Berat Castle",
+          "Butrint",
+          "Gjirokastër",
+          "Shkodra",
+          "Krujë Castle",
+          "Apollonia",
+          "Saranda",
+          "Dajti Ekspres",
+          "Vlora",
+          "Theth National Park"
+        ]
+      },
+      {
+        "country": "Algeria",
+        "places": [
+          "Kasbah of Algiers",
+          "Djemila",
+          "Timgad",
+          "Sahara Desert",
+          "Tipasa",
+          "Mausoleum of Mauretania",
+          "El-Maghra",
+          "Hoggar Mountains",
+          "Gorges of the Todra",
+          "Algiers Botanical Garden"
+        ]
+      },
+      {
+        "country": "Andorra",
+        "places": [
+          "Grandvalira",
+          "Vallnord",
+          "Andorra la Vella",
+          "Sant Joan de Caselles",
+          "Casa de la Vall",
+          "Engolasters Lake",
+          "Caldea Spa",
+          "Sorteny Nature Park",
+          "Madriu-Perafita-Claror Valley",
+          "Soldeu"
+        ]
+      },
+      {
+        "country": "Angola",
+        "places": [
+          "Luanda",
+          "Kalandula Falls",
+          "Benguela",
+          "Namibe Desert",
+          "Tundavala",
+          "Kissama National Park",
+          "Huambo",
+          "Lubango",
+          "Fortaleza de São Miguel",
+          "Mussulo Island"
+        ]
+      },
+      {
+        "country": "Antigua and Barbuda",
+        "places": [
+          "Nelson's Dockyard",
+          "Antigua Rainforest Canopy Tour",
+          "English Harbour",
+          "Shirley Heights",
+          "Half Moon Bay",
+          "Dickenson Bay",
+          "St. John's Cathedral",
+          "Galleon Beach",
+          "Devil's Bridge",
+          "Barbuda's Pink Sand Beach"
+        ]
+      },
+      {
+        "country": "Argentina",
+        "places": [
+          "Iguazu Falls",
+          "Buenos Aires",
+          "Patagonia",
+          "Mendoza Wine Region",
+          "Perito Moreno Glacier",
+          "Ushuaia",
+          "El Calafate",
+          "Bariloche",
+          "Quebrada de Humahuaca",
+          "Tigre Delta"
+        ]
+      },
+      {
+        "country": "Armenia",
+        "places": [
+          "Yerevan",
+          "Geghard Monastery",
+          "Garni Temple",
+          "Khor Virap",
+          "Lake Sevan",
+          "Dilijan",
+          "Noravank",
+          "Tsaghkadzor",
+          "Ararat Museum",
+          "Haghpat Monastery"
+        ]
+      },
+      {
+        "country": "Australia",
+        "places": [
+          "Sydney Opera House",
+          "Great Barrier Reef",
+          "Uluru",
+          "Sydney Harbour Bridge",
+          "Bondi Beach",
+          "Great Ocean Road",
+          "Daintree Rainforest",
+          "Melbourne's Laneways",
+          "Tasmania",
+          "Whitsunday Islands"
+        ]
+      },
+      {
+        "country": "Austria",
+        "places": [
+          "Vienna",
+          "Salzburg",
+          "Innsbruck",
+          "Hallstatt",
+          "Melk Abbey",
+          "Schönbrunn Palace",
+          "St. Stephen's Cathedral",
+          "Zell am See",
+          "Grossglockner",
+          "Wachau Valley"
+        ]
+      },
+      {
+        "country": "Azerbaijan",
+        "places": [
+          "Baku",
+          "Gobustan National Park",
+          "Sheki",
+          "Gabala",
+          "Ganja",
+          "Khinalug",
+          "Naftalan",
+          "Quba",
+          "Ismayilli",
+          "Lahij"
+        ]
+      },
+      {
+        "country": "Bahamas",
+        "places": [
+          "Nassau",
+          "Paradise Island",
+          "Grand Bahama Island",
+          "Exuma Cays",
+          "Andros Island",
+          "Eleuthera",
+          "Bimini",
+          "Harbour Island",
+          "Abacos",
+          "Cat Island"
+        ]
+      },
+      {
+        "country": "Bahrain",
+        "places": [
+          "Manama",
+          "Bahrain Fort",
+          "Qal'at al-Bahrain",
+          "Bahrain National Museum",
+          "Al Fateh Grand Mosque",
+          "Muharraq",
+          "Tree of Life",
+          "Bahrain International Circuit",
+          "Amwaj Islands",
+          "Seef Mall"
+        ]
+      },
+      {
+        "country": "Bangladesh",
+        "places": [
+          "Dhaka",
+          "Sundarbans",
+          "Sylhet",
+          "Chittagong Hill Tracts",
+          "Rangamati",
+          "Cox's Bazar",
+          "Srimangal",
+          "Paharpur",
+          "Moulvibazar",
+          "Jaflong"
+        ]
+      },
+      {
+        "country": "Barbados",
+        "places": [
+          "Bridgetown",
+          "Oistins Fish Fry",
+          "Harrison's Cave",
+          "Bathsheba",
+          "St. Lawrence Gap",
+          "Barbados Wildlife Reserve",
+          "George Washington House",
+          "Garrison Savannah",
+          "Andromeda Botanical Gardens",
+          "Brownes Beach"
+        ]
+      },
+      {
+        "country": "Belarus",
+        "places": [
+          "Minsk",
+          "Brest Hero-Fortress",
+          "Mir Castle",
+          "Nesvizh Castle",
+          "Polotsk",
+          "Gomel",
+          "Belovezhskaya Pushcha",
+          "Brest",
+          "Grodno",
+          "Vitebsk"
+        ]
+      },
+      {
+        "country": "Belgium",
+        "places": [
+          "Brussels",
+          "Bruges",
+          "Antwerp",
+          "Ghent",
+          "Leuven",
+          "Namur",
+          "Dinant",
+          "Liege",
+          "Mechelen",
+          "Oostende"
+        ]
+      },
+      {
+        "country": "Belize",
+        "places": [
+          "Ambergris Caye",
+          "Caye Caulker",
+          "Belize City",
+          "San Ignacio",
+          "Hol Chan Marine Reserve",
+          "Great Blue Hole",
+          "Actun Tunichil Muknal",
+          "Goff's Caye",
+          "Corozal",
+          "Placencia"
+        ]
+      },
+      {
+        "country": "Benin",
+        "places": [
+          "Ouidah",
+          "Cotonou",
+          "Abomey",
+          "Pendjari National Park",
+          "Ganvie",
+          "Porto-Novo",
+          "Dantokpa Market",
+          "Bohicon",
+          "The Royal Palaces of Abomey",
+          "Grand Popo"
+        ]
+      },
+      {
+        "country": "Bhutan",
+        "places": [
+          "Paro",
+          "Thimphu",
+          "Punakha",
+          "Tiger's Nest Monastery",
+          "Bumthang Valley",
+          "Gangtey Valley",
+          "Dochula Pass",
+          "Phobjikha Valley",
+          "Haa Valley",
+          "Wangdue Phodrang"
+        ]
+      },
+      {
+        "country": "Bolivia",
+        "places": [
+          "Salar de Uyuni",
+          "La Paz",
+          "Sucre",
+          "Potosí",
+          "Uyuni",
+          "Titicaca Lake",
+          "Madidi National Park",
+          "Samaipata",
+          "Tarija",
+          "El Alto"
+        ]
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "places": [
+          "Sarajevo",
+          "Mostar",
+          "Banja Luka",
+          "Jajce",
+          "Tuzla",
+          "Travnik",
+          "Kravice Falls",
+          "Blagaj",
+          "Srebrenica",
+          "Visegrad"
+        ]
+      },
+      {
+        "country": "Botswana",
+        "places": [
+          "Okavango Delta",
+          "Chobe National Park",
+          "Makgadikgadi Pan",
+          "Moremi Game Reserve",
+          "Gaborone",
+          "Tsodilo Hills",
+          "Kgalagadi Transfrontier Park",
+          "Maun",
+          "Nxai Pan National Park",
+          "Central Kalahari Game Reserve"
+        ]
+      },
+      {
+        "country": "Brazil",
+        "places": [
+          "Christ the Redeemer",
+          "Sugarloaf Mountain",
+          "Copacabana Beach",
+          "Iguazu Falls",
+          "Amazon Rainforest",
+          "Selaron Steps",
+          "Maracanã Stadium",
+          "Pantanal",
+          "Tijuca National Park",
+          "Botanical Garden"
+        ]
+      },
+      {
+        "country": "Brunei",
+        "places": [
+          "Bandar Seri Begawan",
+          "Sultan Omar Ali Saifuddien Mosque",
+          "Royal Regalia Museum",
+          "Brunei Museum",
+          "Ulu Temburong National Park",
+          "Jame' Asr Hassanil Bolkiah Mosque",
+          "Kampong Ayer",
+          "Tasek Lama Recreational Park",
+          "Brunei Arts and Handicraft Centre",
+          "Mulia Hotel"
+        ]
+      },
+      {
+        "country": "Bulgaria",
+        "places": [
+          "Sofia",
+          "Plovdiv",
+          "Rila Monastery",
+          "Bansko",
+          "Nessebar",
+          "Veliko Tarnovo",
+          "Varna",
+          "Burgas",
+          "Pirin National Park",
+          "Kazanlak"
+        ]
+      },
+      {
+        "country": "Burkina Faso",
+        "places": [
+          "Ouagadougou",
+          "Bobo-Dioulasso",
+          "Rupublic Square",
+          "Nazinga Game Ranch",
+          "Arli National Park",
+          "Gorom-Gorom Market",
+          "Tena Kourou",
+          "Ouahigouya",
+          "Dori",
+          "The Grand Mosque of Bobo-Dioulasso"
+        ]
+      },
+      {
+        "country": "Burundi",
+        "places": [
+          "Bujumbura",
+          "Lake Tanganyika",
+          "Kibira National Park",
+          "Rusizi National Park",
+          "Gitega",
+          "Mugara Falls",
+          "Saga Hill",
+          "Bujumbura's Central Market",
+          "Kayanza",
+          "Ntega"
+        ]
+      },
+      {
+        "country": "Cabo Verde",
+        "places": [
+          "Santiago",
+          "Mindelo",
+          "Fogo",
+          "Santa Maria",
+          "Praia",
+          "São Vicente",
+          "Boa Vista",
+          "Sal Island",
+          "Tarrafal",
+          "Ribeira Grande"
+        ]
+      },
+      {
+        "country": "Cambodia",
+        "places": [
+          "Angkor Wat",
+          "Phnom Penh",
+          "Siem Reap",
+          "Ta Prohm",
+          "Bayon Temple",
+          "Killing Fields",
+          "Tonle Sap Lake",
+          "Koh Rong",
+          "Battambang",
+          "Kampot"
+        ]
+      },
+      {
+        "country": "Cameroon",
+        "places": [
+          "Yaoundé",
+          "Douala",
+          "Mount Cameroon",
+          "Waza National Park",
+          "Dja Faunal Reserve",
+          "Buea",
+          "Limbe",
+          "Kribi",
+          "Mefou National Park",
+          "Bamenda"
+        ]
+      },
+      {
+        "country": "Canada",
+        "places": [
+          "Niagara Falls",
+          "Banff National Park",
+          "Toronto CN Tower",
+          "Vancouver Seawall",
+          "Quebec Old Town",
+          "Prince Edward Island",
+          "Jasper National Park",
+          "Ottawa Parliament Buildings",
+          "Montreal's Old Port",
+          "Whistler Blackcomb"
+        ]
+      },
+      {
+        "country": "Central African Republic",
+        "places": [
+          "Bangui",
+          "Manovo-Gounda St. Floris National Park",
+          "Dzanga-Sangha Special Reserve",
+          "Boali Falls",
+          "Chinko Reserve",
+          "Sangha Trinational Park",
+          "Zangba Forest Reserve",
+          "Yade National Park",
+          "Bamingui-Bangoran National Park",
+          "Kotto River"
+        ]
+      },
+      {
+        "country": "Chad",
+        "places": [
+          "N'Djamena",
+          "Zakouma National Park",
+          "Ennedi Plateau",
+          "Manda National Park",
+          "Lake Chad",
+          "Amdjarass",
+          "Wadi Achim",
+          "Tibesti Mountains",
+          "Abéché",
+          "Fada"
+        ]
+      },
+      {
+        "country": "Chile",
+        "places": [
+          "Santiago",
+          "Easter Island",
+          "Atacama Desert",
+          "Valparaiso",
+          "Patagonia",
+          "Torres del Paine National Park",
+          "San Pedro de Atacama",
+          "Chiloe Island",
+          "Punta Arenas",
+          "La Serena"
+        ]
+      },
+      {
+        "country": "China",
+        "places": [
+          "Great Wall of China",
+          "Forbidden City",
+          "Terracotta Army",
+          "The Bund",
+          "Summer Palace",
+          "Jiuzhaigou Valley",
+          "Shanghai",
+          "Guilin",
+          "Yellow Mountains",
+          "Zhangjiajie National Forest Park"
+        ]
+      },
+      {
+        "country": "Colombia",
+        "places": [
+          "Bogotá",
+          "Medellín",
+          "Cartagena",
+          "Cali",
+          "San Andrés Island",
+          "Tayrona National Park",
+          "Eje Cafetero",
+          "Barranquilla",
+          "Villa de Leyva",
+          "Tatacoa Desert"
+        ]
+      },
+      {
+        "country": "Comoros",
+        "places": [
+          "Moroni",
+          "Anjouan",
+          "Moheli",
+          "Grand Comore",
+          "Mount Karthala",
+          "Chindini Beach",
+          "Iconi Beach",
+          "Moya",
+          "Nzwani",
+          "Fomboni"
+        ]
+      },
+      {
+        "country": "Congo, Democratic Republic of the",
+        "places": [
+          "Kinshasa",
+          "Virunga National Park",
+          "Salonga National Park",
+          "Kahuzi-Biega National Park",
+          "Zongo Falls",
+          "Tshopo Falls",
+          "Bunia",
+          "Goma",
+          "Bukavu",
+          "Mbandaka"
+        ]
+      },
+      {
+        "country": "Congo, Republic of the",
+        "places": [
+          "Brazzaville",
+          "Pointe-Noire",
+          "Odzala-Kokoua National Park",
+          "Lékoumou River",
+          "Cuvette-Ouest",
+          "Nouabale-Ndoki National Park",
+          "Makoko",
+          "Dolisie",
+          "Oyo",
+          "Mossaka"
+        ]
+      },
+      {
+        "country": "Costa Rica",
+        "places": [
+          "San José",
+          "Arenal Volcano",
+          "Monteverde Cloud Forest",
+          "Manuel Antonio National Park",
+          "Tortuguero National Park",
+          "Guanacaste",
+          "Osa Peninsula",
+          "Puerto Viejo",
+          "Cartago",
+          "Jaco Beach"
+        ]
+      },
+      {
+        "country": "Croatia",
+        "places": [
+          "Dubrovnik",
+          "Split",
+          "Plitvice Lakes National Park",
+          "Zadar",
+          "Rovinj",
+          "Hvar",
+          "Pecs",
+          "Korčula",
+          "Osijek",
+          "Mljet National Park"
+        ]
+      },
+      {
+        "country": "Cuba",
+        "places": [
+          "Havana",
+          "Varadero Beach",
+          "Santiago de Cuba",
+          "Trinidad",
+          "Cienfuegos",
+          "Viñales Valley",
+          "Holguín",
+          "Camagüey",
+          "Baracoa",
+          "Pinar del Río"
+        ]
+      },
+      {
+        "country": "Cyprus",
+        "places": [
+          "Nicosia",
+          "Limassol",
+          "Paphos",
+          "Ayia Napa",
+          "Larnaca",
+          "Troodos Mountains",
+          "Kyrenia",
+          "Famagusta",
+          "Kourion",
+          "Cape Greco"
+        ]
+      },
+      {
+        "country": "Czech Republic",
+        "places": [
+          "Prague",
+          "Karlovy Vary",
+          "Cesky Krumlov",
+          "Kutná Hora",
+          "Brno",
+          "Olomouc",
+          "Pilsen",
+          "Hluboká Castle",
+          "Telč",
+          "Český ráj"
+        ]
+      },
+      {
+        "country": "Denmark",
+        "places": [
+          "Copenhagen",
+          "Aarhus",
+          "Odense",
+          "Aalborg",
+          "Roskilde",
+          "Bornholm",
+          "Skagen",
+          "Legoland Billund",
+          "Kronborg Castle",
+          "Tivoli Gardens"
+        ]
+      },
+      {
+        "country": "Djibouti",
+        "places": [
+          "Djibouti City",
+          "Lake Assal",
+          "Day Forest National Park",
+          "Arta",
+          "Loyada",
+          "Tadjoura",
+          "Ras Ali",
+          "Moucha Island",
+          "Goubetto Bay",
+          "Lake Abbe"
+        ]
+      },
+      {
+        "country": "Dominica",
+        "places": [
+          "Roseau",
+          "Boiling Lake",
+          "Morne Trois Pitons National Park",
+          "Sari Sari Falls",
+          "Lover's Leap",
+          "Emerald Pool",
+          "Morne Diablotins",
+          "Cabrits National Park",
+          "Wotten Waven",
+          "Indian River"
+        ]
+      },
+      {
+        "country": "Dominican Republic",
+        "places": [
+          "Santo Domingo",
+          "Punta Cana",
+          "Sosúa",
+          "Cabarete",
+          "Puerto Plata",
+          "La Romana",
+          "Samana",
+          "Las Terrenas",
+          "Jarabacoa",
+          "Bayahibe"
+        ]
+      },
+      {
+        "country": "Ecuador",
+        "places": [
+          "Quito",
+          "Galápagos Islands",
+          "Cuenca",
+          "Guayaquil",
+          "Baños",
+          "Otavalo",
+          "Cotopaxi National Park",
+          "Mindo Cloud Forest",
+          "Montañita",
+          "Cajas National Park"
+        ]
+      },
+      {
+        "country": "Egypt",
+        "places": [
+          "Cairo",
+          "Giza Pyramids",
+          "Luxor",
+          "Aswan",
+          "Abu Simbel",
+          "Alexandria",
+          "Siwa Oasis",
+          "Dahshur",
+          "Sharm El Sheikh",
+          "Hurghada"
+        ]
+      },
+      {
+        "country": "El Salvador",
+        "places": [
+          "San Salvador",
+          "Santa Ana Volcano",
+          "Ruta de las Flores",
+          "Suchitoto",
+          "La Libertad",
+          "El Tunco",
+          "Coatepeque Lake",
+          "Joya de Cerén",
+          "San Miguel",
+          "San Vicente"
+        ]
+      },
+      {
+        "country": "Equatorial Guinea",
+        "places": [
+          "Malabo",
+          "Bata",
+          "Bioko Island",
+          "Annobón Island",
+          "Monte Alén National Park",
+          "Lope National Park",
+          "Riaba",
+          "Evinayong",
+          "Nsok Nsomo",
+          "Luba"
+        ]
+      },
+      {
+        "country": "Eritrea",
+        "places": [
+          "Asmara",
+          "Massawa",
+          "Keren",
+          "Qohaito",
+          "Dahlak Archipelago",
+          "Asmara Cathedral",
+          "St. Mariam Cathedral",
+          "Ancient Qohaito",
+          "Mount Emba Soira",
+          "Dahlak Kebir Island"
+        ]
+      },
+      {
+        "country": "Estonia",
+        "places": [
+          "Tallinn",
+          "Tartu",
+          "Pärnu",
+          "Saaremaa",
+          "Narva",
+          "Haapsalu",
+          "Viljandi",
+          "Kuressaare",
+          "Rakvere",
+          "Osmussaar"
+        ]
+      },
+      {
+        "country": "Eswatini",
+        "places": [
+          "Mbabane",
+          "Manzini",
+          "Lobamba",
+          "Hlane Royal National Park",
+          "Mlilwane Wildlife Sanctuary",
+          "Mlawula Nature Reserve",
+          "Big Bend",
+          "Piggs Peak",
+          "Ezulwini Valley",
+          "Mkhaya Game Reserve"
+        ]
+      },
+      {
+        "country": "Ethiopia",
+        "places": [
+          "Addis Ababa",
+          "Lalibela",
+          "Simien Mountains National Park",
+          "Axum",
+          "Gondar",
+          "Harar",
+          "Lake Tana",
+          "Danakil Depression",
+          "Omo Valley",
+          "Bahir Dar"
+        ]
+      },
+      {
+        "country": "Fiji",
+        "places": [
+          "Suva",
+          "Nadi",
+          "Denarau Island",
+          "Mamanuca Islands",
+          "Coral Coast",
+          "Yasawa Islands",
+          "Sigatoka",
+          "Taveuni",
+          "Lautoka",
+          "Savusavu"
+        ]
+      },
+      {
+        "country": "Finland",
+        "places": [
+          "Helsinki",
+          "Rovaniemi",
+          "Lapland",
+          "Tampere",
+          "Turku",
+          "Oulu",
+          "Porvoo",
+          "Jyvaskyla",
+          "Kemi",
+          "Lappeenranta"
+        ]
+      },
+      {
+        "country": "France",
+        "places": [
+          "Paris",
+          "Versailles",
+          "Nice",
+          "Lyon",
+          "Bordeaux",
+          "Marseille",
+          "Strasbourg",
+          "Montpellier",
+          "Normandy",
+          "Loire Valley"
+        ]
+      },
+      {
+        "country": "Gabon",
+        "places": [
+          "Libreville",
+          "Lopé National Park",
+          "Ivindo National Park",
+          "Loango National Park",
+          "Gamba",
+          "Tchibanga",
+          "Makokou",
+          "Sangha River",
+          "Franceville",
+          "Lambaréné"
+        ]
+      },
+      {
+        "country": "Gambia",
+        "places": [
+          "Banjul",
+          "Serrekunda",
+          "Kunta Kinteh Island",
+          "Abuko Nature Reserve",
+          "Tanji Bird Reserve",
+          "Kololi",
+          "Juffureh",
+          "Bakau",
+          "Gunjur",
+          "Bansang"
+        ]
+      },
+      {
+        "country": "Georgia",
+        "places": [
+          "Tbilisi",
+          "Batumi",
+          "Mtskheta",
+          "Kutaisi",
+          "Vardisubani",
+          "Sighnaghi",
+          "Uplistsikhe",
+          "Vardisubani",
+          "Anaklia",
+          "Gudauri"
+        ]
+      },
+      {
+        "country": "Germany",
+        "places": [
+          "Berlin",
+          "Munich",
+          "Frankfurt",
+          "Hamburg",
+          "Cologne",
+          "Dresden",
+          "Nuremberg",
+          "Heidelberg",
+          "Bamberg",
+          "Rothenburg ob der Tauber"
+        ]
+      },
+      {
+        "country": "Ghana",
+        "places": [
+          "Accra",
+          "Kumasi",
+          "Cape Coast",
+          "Elmina",
+          "Takoradi",
+          "Kakum National Park",
+          "Mole National Park",
+          "Wli Waterfalls",
+          "Ada Foah",
+          "Keta"
+        ]
+      },
+      {
+        "country": "Greece",
+        "places": [
+          "Athens",
+          "Santorini",
+          "Mykonos",
+          "Crete",
+          "Thessaloniki",
+          "Delphi",
+          "Rhodes",
+          "Corfu",
+          "Kefalonia",
+          "Nafplio"
+        ]
+      },
+      {
+        "country": "Grenada",
+        "places": [
+          "St. George's",
+          "Grand Anse Beach",
+          "Grenville",
+          "Carriacou",
+          "Petit Martinique",
+          "St. David's",
+          "Morne Rouge Beach",
+          "Tanteen Beach",
+          "Sauteurs",
+          "Victoria"
+        ]
+      },
+      {
+        "country": "Guatemala",
+        "places": [
+          "Antigua Guatemala",
+          "Guatemala City",
+          "Tikal",
+          "Lake Atitlán",
+          "Chichicastenango",
+          "Quetzaltenango",
+          "Semuc Champey",
+          "Monterrico",
+          "Petén",
+          "Peten Itza Lake"
+        ]
+      },
+      {
+        "country": "Guinea",
+        "places": [
+          "Conakry",
+          "Kindia",
+          "Fouta Djallon",
+          "Mount Nimba",
+          "Loos Islands",
+          "Boke",
+          "Labe",
+          "Kankan",
+          "Nzérékoré",
+          "Macenta"
+        ]
+      },
+      {
+        "country": "Guinea-Bissau",
+        "places": [
+          "Bissau",
+          "Bijagos Archipelago",
+          "Orango Island",
+          "Varela",
+          "Bubaque",
+          "Gabu",
+          "Bolama",
+          "Quinara",
+          "Catio",
+          "Pirada"
+        ]
+      },
+      {
+        "country": "Guyana",
+        "places": [
+          "Georgetown",
+          "Kaieteur Falls",
+          "Rupununi Savanna",
+          "Iwokrama Forest",
+          "Shell Beach",
+          "Surama Village",
+          "Lethem",
+          "Annai",
+          "Kanuku Mountains",
+          "Pakaraima Mountains"
+        ]
+      },
+      {
+        "country": "Haiti",
+        "places": [
+          "Port-au-Prince",
+          "Cap-Haïtien",
+          "Jacmel",
+          "Les Cayes",
+          "Petionville",
+          "Labadee",
+          "Milot",
+          "Citadelle Laferrière",
+          "Saut d'Eau",
+          "Morne à Cabris"
+        ]
+      },
+      {
+        "country": "Honduras",
+        "places": [
+          "Tegucigalpa",
+          "San Pedro Sula",
+          "Roatan",
+          "Copan Ruinas",
+          "Utila",
+          "La Ceiba",
+          "Gracias",
+          "Omoa",
+          "Tela",
+          "La Tigra National Park"
+        ]
+      },
+      {
+        "country": "Hungary",
+        "places": [
+          "Budapest",
+          "Debrecen",
+          "Szeged",
+          "Pecs",
+          "Eger",
+          "Szentendre",
+          "Visegrad",
+          "Kecskemet",
+          "Balatonfüred",
+          "Sopron"
+        ]
+      },
+      {
+        "country": "Iceland",
+        "places": [
+          "Reykjavik",
+          "Golden Circle",
+          "Blue Lagoon",
+          "Akureyri",
+          "Vik",
+          "Húsavík",
+          "Thingvellir National Park",
+          "Jökulsárlón Glacier Lagoon",
+          "Myvatn",
+          "Snaefellsnes Peninsula"
+        ]
+      },
+      {
+        "country": "India",
+        "places": [
+          "New Delhi",
+          "Mumbai",
+          "Bangalore",
+          "Goa",
+          "Agra",
+          "Jaipur",
+          "Kerala",
+          "Varanasi",
+          "Udaipur",
+          "Amritsar"
+        ]
+      },
+      {
+        "country": "Indonesia",
+        "places": [
+          "Bali",
+          "Jakarta",
+          "Yogyakarta",
+          "Ubud",
+          "Bromo Volcano",
+          "Komodo Island",
+          "Sumatra",
+          "Lombok",
+          "Bandung",
+          "Raja Ampat"
+        ]
+      },
+      {
+        "country": "Iran",
+        "places": [
+          "Tehran",
+          "Isfahan",
+          "Shiraz",
+          "Yazd",
+          "Tabriz",
+          "Kerman",
+          "Persepolis",
+          "Kish Island",
+          "Mashhad",
+          "Qom"
+        ]
+      },
+      {
+        "country": "Iraq",
+        "places": [
+          "Baghdad",
+          "Erbil",
+          "Basra",
+          "Mosul",
+          "Karbala",
+          "Sulaimaniyah",
+          "Najaf",
+          "Hilla",
+          "Duhok",
+          "Sulaymaniyah"
+        ]
+      },
+      {
+        "country": "Ireland",
+        "places": [
+          "Dublin",
+          "Galway",
+          "Cork",
+          "Limerick",
+          "Killarney",
+          "Kilkenny",
+          "Dingle",
+          "Waterford",
+          "Belfast",
+          "Drogheda"
+        ]
+      },
+      {
+        "country": "Israel",
+        "places": [
+          "Jerusalem",
+          "Tel Aviv",
+          "Haifa",
+          "Eilat",
+          "Nazareth",
+          "Dead Sea",
+          "Tiberias",
+          "Caesarea",
+          "Haifa",
+          "Rosh Pina"
+        ]
+      },
+      {
+        "country": "Italy",
+        "places": [
+          "Rome",
+          "Venice",
+          "Florence",
+          "Milan",
+          "Naples",
+          "Venice",
+          "Siena",
+          "Cinque Terre",
+          "Amalfi Coast",
+          "Pompeii"
+        ]
+      },
+      {
+        "country": "Jamaica",
+        "places": [
+          "Kingston",
+          "Montego Bay",
+          "Ocho Rios",
+          "Negril",
+          "Port Antonio",
+          "Runaway Bay",
+          "Falmouth",
+          "Treasure Beach",
+          "Seven Mile Beach",
+          "Martha Brae"
+        ]
+      },
+      {
+        "country": "Japan",
+        "places": [
+          "Tokyo",
+          "Kyoto",
+          "Osaka",
+          "Hiroshima",
+          "Nara",
+          "Fukuoka",
+          "Sapporo",
+          "Nagoya",
+          "Kobe",
+          "Okinawa"
+        ]
+      },
+      {
+        "country": "Jordan",
+        "places": [
+          "Amman",
+          "Petra",
+          "Wadi Rum",
+          "Aqaba",
+          "Jerash",
+          "Madaba",
+          "Dead Sea",
+          "Mount Nebo",
+          "Ajloun",
+          "Karak"
+        ]
+      },
+      {
+        "country": "Kazakhstan",
+        "places": [
+          "Almaty",
+          "Astana",
+          "Shymkent",
+          "Karaganda",
+          "Pavlodar",
+          "Ust-Kamenogorsk",
+          "Aktau",
+          "Semey",
+          "Taraz",
+          "Kostanay"
+        ]
+      },
+      {
+        "country": "Kenya",
+        "places": [
+          "Nairobi",
+          "Mombasa",
+          "Kisumu",
+          "Nakuru",
+          "Malindi",
+          "Diani Beach",
+          "Maasai Mara",
+          "Amboseli National Park",
+          "Tsavo National Park",
+          "Lamu Island"
+        ]
+      },
+      {
+        "country": "Kiribati",
+        "places": [
+          "Tarawa",
+          "Banaba",
+          "Kiritimati",
+          "Abaiang",
+          "Butaritari",
+          "Onotoa",
+          "Tabiteuea",
+          "Aranuka",
+          "North Tarawa",
+          "South Tarawa"
+        ]
+      },
+      {
+        "country": "Kuwait",
+        "places": [
+          "Kuwait City",
+          "Salmiya",
+          "Jabriya",
+          "Hawalli",
+          "Farwaniya",
+          "Ahmadi",
+          "Mubarak Al-Kabeer",
+          "Sabah Al-Salem",
+          "Khaitan",
+          "Fahaheel"
+        ]
+      },
+      {
+        "country": "Kyrgyzstan",
+        "places": [
+          "Bishkek",
+          "Osh",
+          "Jalal-Abad",
+          "Karakol",
+          "Tashkent",
+          "Batken",
+          "Sary-Chelek",
+          "Toktogul",
+          "Issyk-Kul",
+          "Arslanbob"
+        ]
+      },
+      {
+        "country": "Laos",
+        "places": [
+          "Vientiane",
+          "Luang Prabang",
+          "Pakse",
+          "Vang Vieng",
+          "Don Det",
+          "Si Phan Don",
+          "Champasak",
+          "Bolaven Plateau",
+          "Pakse",
+          "Kong Lor Cave"
+        ]
+      },
+      {
+        "country": "Latvia",
+        "places": [
+          "Riga",
+          "Jurmala",
+          "Liepaja",
+          "Daugavpils",
+          "Ventspils",
+          "Sigulda",
+          "Cesis",
+          "Kuldiga",
+          "Riga",
+          "Jurmala"
+        ]
+      },
+      {
+        "country": "Lebanon",
+        "places": [
+          "Beirut",
+          "Byblos",
+          "Baalbek",
+          "Sidon",
+          "Tyre",
+          "Jeita Grotto",
+          "Jounieh",
+          "Batroun",
+          "Zahle",
+          "Tripoli"
+        ]
+      },
+      {
+        "country": "Lesotho",
+        "places": [
+          "Maseru",
+          "Semonkong",
+          "Thaba-Tseka",
+          "Malealea",
+          "Katse Dam",
+          "Royal Village",
+          "Sehlabathebe National Park",
+          "Mohale Dam",
+          "Qacha's Nek",
+          "Leribe"
+        ]
+      },
+      {
+        "country": "Liberia",
+        "places": [
+          "Monrovia",
+          "Gbarnga",
+          "Buchanan",
+          "Saclepea",
+          "Zwedru",
+          "Gbarpolu",
+          "Nimba County",
+          "Cape Mount",
+          "Grand Bassa",
+          "Bomi County"
+        ]
+      },
+      {
+        "country": "Libya",
+        "places": [
+          "Tripoli",
+          "Benghazi",
+          "Misrata",
+          "Sebha",
+          "Zintan",
+          "Ghadames",
+          "Sabratha",
+          "Leptis Magna",
+          "Cyrene",
+          "Tadrart Acacus"
+        ]
+      },
+      {
+        "country": "Liechtenstein",
+        "places": [
+          "Vaduz",
+          "Schaan",
+          "Balzers",
+          "Eschen",
+          "Schaanwald",
+          "Schellenberg",
+          "Planken",
+          "Gamprin",
+          "Bendern",
+          "Ruggell"
+        ]
+      },
+      {
+        "country": "Lithuania",
+        "places": [
+          "Vilnius",
+          "Kaunas",
+          "Klaipeda",
+          "Šiauliai",
+          "Panevėžys",
+          "Druskininkai",
+          "Nida",
+          "Palanga",
+          "Trakai",
+          "Rumsiskes"
+        ]
+      },
+      {
+        "country": "Luxembourg",
+        "places": [
+          "Luxembourg City",
+          "Echternach",
+          "Vianden",
+          "Clervaux",
+          "Remich",
+          "Dudelange",
+          "Wiltz",
+          "Mersch",
+          "Ettelbruck",
+          "Diekirch"
+        ]
+      },
+      {
+        "country": "Madagascar",
+        "places": [
+          "Antananarivo",
+          "Nosy Be",
+          "Antsiranana",
+          "Toamasina",
+          "Fianarantsoa",
+          "Mahajanga",
+          "Isalo National Park",
+          "Avenue of the Baobabs",
+          "Ranomafana National Park",
+          "Toliara"
+        ]
+      },
+      {
+        "country": "Malawi",
+        "places": [
+          "Lilongwe",
+          "Blantyre",
+          "Mzuzu",
+          "Zomba",
+          "Mangochi",
+          "Nkhata Bay",
+          "Liwonde National Park",
+          "Liwonde",
+          "Nyika National Park",
+          "Lake Malawi"
+        ]
+      },
+      {
+        "country": "Malaysia",
+        "places": [
+          "Kuala Lumpur",
+          "Penang",
+          "Langkawi",
+          "Kota Kinabalu",
+          "Malacca",
+          "Cameron Highlands",
+          "George Town",
+          "Kuala Terengganu",
+          "Ipoh",
+          "Putrajaya"
+        ]
+      },
+      {
+        "country": "Maldives",
+        "places": [
+          "Malé",
+          "Maafushi",
+          "Sun Siyam Iru Fushi",
+          "Hilton Maldives Amingiri",
+          "Constance Moofushi",
+          "Anantara Veli Maldives",
+          "W Retreat & Spa",
+          "Six Senses Laamu",
+          "Nika Island Resort",
+          "Baros Maldives"
+        ]
+      },
+      {
+        "country": "Mali",
+        "places": [
+          "Bamako",
+          "Ségou",
+          "Mopti",
+          "Tombouctou",
+          "Gao",
+          "Koutiala",
+          "Sikasso",
+          "Kidal",
+          "Kayes",
+          "Diré"
+        ]
+      },
+      {
+        "country": "Malta",
+        "places": [
+          "Valletta",
+          "Mdina",
+          "Sliema",
+          "St. Julian's",
+          "Gozo",
+          "Mellieħa",
+          "Marsaxlokk",
+          "Birgu",
+          "Rabat",
+          "Comino"
+        ]
+      },
+      {
+        "country": "Marshall Islands",
+        "places": [
+          "Majuro",
+          "Ebeye",
+          "Arno",
+          "Kwajalein",
+          "Maloelap",
+          "Jabor",
+          "Bikar Atoll",
+          "Aur Atoll",
+          "Wotje",
+          "Maloelap"
+        ]
+      },
+      {
+        "country": "Mauritania",
+        "places": [
+          "Nouakchott",
+          "Nouadhibou",
+          "Atar",
+          "Chinguetti",
+          "Tiris Zemmour",
+          "Adrar",
+          "Zouérat",
+          "Akjoujt",
+          "Tidjikja",
+          "Ouadane"
+        ]
+      },
+      {
+        "country": "Mauritius",
+        "places": [
+          "Port Louis",
+          "Grand Baie",
+          "Flic en Flac",
+          "Le Morne",
+          "Belle Mare",
+          "Mahebourg",
+          "Chamarel",
+          "Black River Gorges National Park",
+          "Trou aux Biches",
+          "Roche Noire"
+        ]
+      },
+      {
+        "country": "Mexico",
+        "places": [
+          "Mexico City",
+          "Cancun",
+          "Playa del Carmen",
+          "Tulum",
+          "Guadalajara",
+          "Monterrey",
+          "Oaxaca",
+          "San Luis Potosi",
+          "Puebla",
+          "Merida"
+        ]
+      },
+      {
+        "country": "Micronesia",
+        "places": [
+          "Palikir",
+          "Kolonia",
+          "Weno",
+          "Pohnpei",
+          "Yap",
+          "Chuuk",
+          "Kosrae",
+          "Kapingamarangi",
+          "Eunip",
+          "Ulithi"
+        ]
+      },
+      {
+        "country": "Moldova",
+        "places": [
+          "Chisinau",
+          "Bender",
+          "Tighina",
+          "Comrat",
+          "Hincesti",
+          "Soroca",
+          "Orhei",
+          "Ungheni",
+          "Cahul",
+          "Dubasari"
+        ]
+      },
+      {
+        "country": "Monaco",
+        "places": [
+          "Monaco-Ville",
+          "Monte Carlo",
+          "La Condamine",
+          "Fontvieille",
+          "Moneghetti",
+          "Monaco Gardens",
+          "Roquebrune-Cap-Martin",
+          "La Rousse",
+          "Le Port",
+          "Monaco Harbor"
+        ]
+      },
+      {
+        "country": "Mongolia",
+        "places": [
+          "Ulaanbaatar",
+          "Khovd",
+          "Erdenet",
+          "Dalanzadgad",
+          "Bagan",
+          "Sainshand",
+          "Moron",
+          "Tsetserleg",
+          "Arvaikheer",
+          "Bulgan"
+        ]
+      },
+      {
+        "country": "Montenegro",
+        "places": [
+          "Podgorica",
+          "Kotor",
+          "Budva",
+          "Herceg Novi",
+          "Tivat",
+          "Bijelo Polje",
+          "Nikšić",
+          "Bar",
+          "Ulcinj",
+          "Mojkovac"
+        ]
+      },
+      {
+        "country": "Morocco",
+        "places": [
+          "Marrakech",
+          "Casablanca",
+          "Fes",
+          "Rabat",
+          "Chefchaouen",
+          "Essaouira",
+          "Tangier",
+          "Agadir",
+          "Ouarzazate",
+          "Meknes"
+        ]
+      },
+      {
+        "country": "Mozambique",
+        "places": [
+          "Maputo",
+          "Beira",
+          "Nampula",
+          "Tete",
+          "Pemba",
+          "Quelimane",
+          "Chimoio",
+          "Inhambane",
+          "Vilankulo",
+          "Gorongosa National Park"
+        ]
+      },
+      {
+        "country": "Myanmar",
+        "places": [
+          "Yangon",
+          "Mandalay",
+          "Bagan",
+          "Naypyidaw",
+          "Inle Lake",
+          "Taunggyi",
+          "Hpa-An",
+          "Kalaw",
+          "Ngapali Beach",
+          "Mrauk U"
+        ]
+      },
+      {
+        "country": "Namibia",
+        "places": [
+          "Windhoek",
+          "Swakopmund",
+          "Sossusvlei",
+          "Etosha National Park",
+          "Damaraland",
+          "Lüderitz",
+          "Walvis Bay",
+          "Fish River Canyon",
+          "Caprivi Strip",
+          "Sesriem"
+        ]
+      },
+      {
+        "country": "Nauru",
+        "places": [
+          "Yaren",
+          "Denigomodu",
+          "Nauru",
+          "Buada",
+          "Meneng",
+          "Uaboe",
+          "Anabar",
+          "Baiti",
+          "Boe",
+          "Aiwo"
+        ]
+      },
+      {
+        "country": "Nepal",
+        "places": [
+          "Kathmandu",
+          "Pokhara",
+          "Lumbini",
+          "Bhaktapur",
+          "Nagarkot",
+          "Bandipur",
+          "Chitwan National Park",
+          "Jomsom",
+          "Manang",
+          "Dolpa"
+        ]
+      },
+      {
+        "country": "Netherlands",
+        "places": [
+          "Amsterdam",
+          "Rotterdam",
+          "The Hague",
+          "Utrecht",
+          "Maastricht",
+          "Haarlem",
+          "Groningen",
+          "Leiden",
+          "Eindhoven",
+          "Delft"
+        ]
+      },
+      {
+        "country": "New Zealand",
+        "places": [
+          "Auckland",
+          "Wellington",
+          "Christchurch",
+          "Queenstown",
+          "Rotorua",
+          "Dunedin",
+          "Taupo",
+          "Napier",
+          "Hamilton",
+          "Nelson"
+        ]
+      },
+      {
+        "country": "Nicaragua",
+        "places": [
+          "Managua",
+          "Granada",
+          "León",
+          "San Juan del Sur",
+          "Ometepe Island",
+          "Masaya",
+          "Somoto Canyon",
+          "Selva Negra",
+          "Rivas",
+          "Estelí"
+        ]
+      },
+      {
+        "country": "Niger",
+        "places": [
+          "Niamey",
+          "Agadez",
+          "Zinder",
+          "Maradi",
+          "Tahoua",
+          "Dosso",
+          "Tahoua",
+          "Birni N'Konni",
+          "Gaya",
+          "Diffa"
+        ]
+      },
+      {
+        "country": "Nigeria",
+        "places": [
+          "Lagos",
+          "Abuja",
+          "Port Harcourt",
+          "Ibadan",
+          "Kaduna",
+          "Kano",
+          "Benin City",
+          "Enugu",
+          "Jos",
+          "Aba"
+        ]
+      },
+      {
+        "country": "North Korea",
+        "places": [
+          "Pyongyang",
+          "Kaesong",
+          "Nampo",
+          "Wonsan",
+          "Sariwon",
+          "Chongjin",
+          "Hamhung",
+          "Rason",
+          "Shinuiju",
+          "Kimchaek"
+        ]
+      },
+      {
+        "country": "North Macedonia",
+        "places": [
+          "Skopje",
+          "Bitola",
+          "Ohrid",
+          "Tetovo",
+          "Kumanovo",
+          "Veles",
+          "Strumica",
+          "Prilep",
+          "Sveti Nikole",
+          "Kavadarci"
+        ]
+      },
+      {
+        "country": "Norway",
+        "places": [
+          "Oslo",
+          "Bergen",
+          "Stavanger",
+          "Trondheim",
+          "Drammen",
+          "Kristiansand",
+          "Ålesund",
+          "Hamar",
+          "Sandnes",
+          "Bodø"
+        ]
+      },
+      {
+        "country": "Oman",
+        "places": [
+          "Muscat",
+          "Salalah",
+          "Nizwa",
+          "Sohar",
+          "Sur",
+          "Ibri",
+          "Bahla",
+          "Khasab",
+          "Manah",
+          "Duqm"
+        ]
+      },
+      {
+        "country": "Pakistan",
+        "places": [
+          "Islamabad",
+          "Karachi",
+          "Lahore",
+          "Rawalpindi",
+          "Faisalabad",
+          "Multan",
+          "Peshawar",
+          "Quetta",
+          "Gilgit-Baltistan",
+          "Murree"
+        ]
+      },
+      {
+        "country": "Palau",
+        "places": [
+          "Ngerulmud",
+          "Koror",
+          "Airai",
+          "Melekeok",
+          "Ngaraard",
+          "Ngatpang",
+          "Ngchesar",
+          "Sonsorol",
+          "Hatohobei",
+          "Angaur"
+        ]
+      },
+      {
+        "country": "Panama",
+        "places": [
+          "Panama City",
+          "Colón",
+          "David",
+          "Boquete",
+          "Bocas del Toro",
+          "El Valle de Antón",
+          "Pedasí",
+          "Santa Catalina",
+          "Gamboa",
+          "Portobelo"
+        ]
+      },
+      {
+        "country": "Papua New Guinea",
+        "places": [
+          "Port Moresby",
+          "Lae",
+          "Madang",
+          "Mount Hagen",
+          "Wewak",
+          "Rabaul",
+          "Goroka",
+          "Kokopo",
+          "Buka",
+          "Kimbe"
+        ]
+      },
+      {
+        "country": "Paraguay",
+        "places": [
+          "Asunción",
+          "Ciudad del Este",
+          "Encarnación",
+          "Pedro Juan Caballero",
+          "Concepción",
+          "San Lorenzo",
+          "Luque",
+          "Fernando de la Mora",
+          "Carapeguá",
+          "San Pedro"
+        ]
+      },
+      {
+        "country": "Peru",
+        "places": [
+          "Lima",
+          "Cusco",
+          "Arequipa",
+          "Trujillo",
+          "Iquitos",
+          "Puno",
+          "Huaraz",
+          "Nazca",
+          "Piura",
+          "Chiclayo"
+        ]
+      },
+      {
+        "country": "Philippines",
+        "places": [
+          "Manila",
+          "Cebu City",
+          "Davao City",
+          "Baguio",
+          "Iloilo City",
+          "Tagaytay",
+          "Puerto Princesa",
+          "Bacolod",
+          "Zamboanga City",
+          "Legazpi"
+        ]
+      },
+      {
+        "country": "Poland",
+        "places": [
+          "Warsaw",
+          "Kraków",
+          "Gdańsk",
+          "Wrocław",
+          "Poznań",
+          "Łódź",
+          "Katowice",
+          "Lublin",
+          "Bydgoszcz",
+          "Szczecin"
+        ]
+      },
+      {
+        "country": "Portugal",
+        "places": [
+          "Lisbon",
+          "Porto",
+          "Sintra",
+          "Funchal",
+          "Coimbra",
+          "Braga",
+          "Évora",
+          "Aveiro",
+          "Guimarães",
+          "Viana do Castelo"
+        ]
+      },
+      {
+        "country": "Qatar",
+        "places": [
+          "Doha",
+          "Al Wakrah",
+          "Al Khor",
+          "Al Rayyan",
+          "Mesaieed",
+          "Umm Salal",
+          "Al Shahaniya",
+          "Al Daayen",
+          "Madinat ash Shamal",
+          "Al Dhakira"
+        ]
+      },
+      {
+        "country": "Romania",
+        "places": [
+          "Bucharest",
+          "Cluj-Napoca",
+          "Brașov",
+          "Timișoara",
+          "Iași",
+          "Constanța",
+          "Sibiu",
+          "Oradea",
+          "Arad",
+          "Ploiești"
+        ]
+      },
+      {
+        "country": "Russia",
+        "places": [
+          "Moscow",
+          "Saint Petersburg",
+          "Novosibirsk",
+          "Yekaterinburg",
+          "Nizhny Novgorod",
+          "Kazan",
+          "Omsk",
+          "Samara",
+          "Rostov-on-Don",
+          "Ufa"
+        ]
+      },
+      {
+        "country": "Rwanda",
+        "places": [
+          "Kigali",
+          "Butare",
+          "Gisenyi",
+          "Musanze",
+          "Cyangugu",
+          "Ruhengeri",
+          "Kibuye",
+          "Nyungwe National Park",
+          "Akagera National Park",
+          "Huye"
+        ]
+      },
+      {
+        "country": "Saint Kitts and Nevis",
+        "places": [
+          "Basseterre",
+          "Charlestown",
+          "Dieppe Bay Town",
+          "Cotton Ground",
+          "Saint Peter's",
+          "Newcastle",
+          "Old Road Town",
+          "Molineux",
+          "Sandy Point Town",
+          "Saint Paul’s"
+        ]
+      },
+      {
+        "country": "Saint Lucia",
+        "places": [
+          "Castries",
+          "Soufrière",
+          "Vieux Fort",
+          "Gros Islet",
+          "Dennery",
+          "Micoud",
+          "Anse la Raye",
+          "Canaries",
+          "Babonneau",
+          "Laborie"
+        ]
+      },
+      {
+        "country": "Saint Vincent and the Grenadines",
+        "places": [
+          "Kingstown",
+          "Bequia",
+          "Mustique",
+          "Union Island",
+          "Palm Island",
+          "Canouan",
+          "Mayreau",
+          "Petit St. Vincent",
+          "Layou",
+          "Barrouallie"
+        ]
+      },
+      {
+        "country": "Samoa",
+        "places": [
+          "Apia",
+          "Faleolo",
+          "Savai'i",
+          "Upolu",
+          "Apolima",
+          "Manono",
+          "Tafatafa",
+          "Sale'apaga",
+          "Lalomanu",
+          "Lotofaga"
+        ]
+      },
+      {
+        "country": "San Marino",
+        "places": [
+          "San Marino",
+          "Serravalle",
+          "Borgo Maggiore",
+          "City of San Marino",
+          "Domagnano",
+          "Faetano",
+          "Fiorentino",
+          "Montegiardino",
+          "Chiesanuova",
+          "Murata"
+        ]
+      },
+      {
+        "country": "Sao Tome and Principe",
+        "places": [
+          "São Tomé",
+          "Principe",
+          "Santana",
+          "Bom Bom",
+          "Agostinho Neto",
+          "Lembá",
+          "Gove",
+          "Guadalupe",
+          "Pagué",
+          "Santa Cruz"
+        ]
+      },
+      {
+        "country": "Saudi Arabia",
+        "places": [
+          "Riyadh",
+          "Jeddah",
+          "Mecca",
+          "Medina",
+          "Dammam",
+          "Khobar",
+          "Abha",
+          "Najran",
+          "Tabuk",
+          "Hail"
+        ]
+      },
+      {
+        "country": "Senegal",
+        "places": [
+          "Dakar",
+          "Saint-Louis",
+          "Doudou",
+          "Thiès",
+          "Ziguinchor",
+          "Kaolack",
+          "Touba",
+          "Mbour",
+          "Fatick",
+          "Kaffrine"
+        ]
+      },
+      {
+        "country": "Serbia",
+        "places": [
+          "Belgrade",
+          "Novi Sad",
+          "Niš",
+          "Kragujevac",
+          "Subotica",
+          "Zrenjanin",
+          "Kraljevo",
+          "Senta",
+          "Vranje",
+          "Jagodina"
+        ]
+      },
+      {
+        "country": "Seychelles",
+        "places": [
+          "Victoria",
+          "Beau Vallon",
+          "Anse Royale",
+          "Praslin",
+          "La Digue",
+          "Grand Anse",
+          "Côte d'Or",
+          "Baie Lazare",
+          "Anse Volbert",
+          "Anse Boileau"
+        ]
+      },
+      {
+        "country": "Sierra Leone",
+        "places": [
+          "Freetown",
+          "Bo",
+          "Kenema",
+          "Makeni",
+          "Koidu",
+          "Lungi",
+          "Pujehun",
+          "Kabala",
+          "Bonthe",
+          "Kono"
+        ]
+      },
+      {
+        "country": "Singapore",
+        "places": [
+          "Singapore",
+          "Marina Bay",
+          "Sentosa",
+          "Orchard Road",
+          "Bugis",
+          "Clarke Quay",
+          "Chinatown",
+          "Little India",
+          "Raffles Place",
+          "East Coast Park"
+        ]
+      },
+      {
+        "country": "Slovakia",
+        "places": [
+          "Bratislava",
+          "Košice",
+          "Prešov",
+          "Nitra",
+          "Trnava",
+          "Žilina",
+          "Martin",
+          "Poprad",
+          "Levice",
+          "Petržalka"
+        ]
+      },
+      {
+        "country": "Slovenia",
+        "places": [
+          "Ljubljana",
+          "Maribor",
+          "Celje",
+          "Kranj",
+          "Novo Mesto",
+          "Ptuj",
+          "Velenje",
+          "Trbovlje",
+          "Kamnik",
+          "Murska Sobota"
+        ]
+      },
+      {
+        "country": "Solomon Islands",
+        "places": [
+          "Honiara",
+          "Gizo",
+          "Auki",
+          "Kirakira",
+          "Taro",
+          "Noro",
+          "Munda",
+          "Honiara",
+          "Rennell",
+          "Bellona"
+        ]
+      },
+      {
+        "country": "Somalia",
+        "places": [
+          "Mogadishu",
+          "Hargeisa",
+          "Bosaso",
+          "Kismayo",
+          "Baidoa",
+          "Burao",
+          "Galkayo",
+          "Jowhar",
+          "Berbera",
+          "Merca"
+        ]
+      },
+      {
+        "country": "South Africa",
+        "places": [
+          "Johannesburg",
+          "Cape Town",
+          "Durban",
+          "Pretoria",
+          "Port Elizabeth",
+          "Bloemfontein",
+          "East London",
+          "Polokwane",
+          "Nelspruit",
+          "Kimberley"
+        ]
+      },
+      {
+        "country": "South Sudan",
+        "places": [
+          "Juba",
+          "Wau",
+          "Malakal",
+          "Rumbek",
+          "Bor",
+          "Aweil",
+          "Yambio",
+          "Torit",
+          "Yei",
+          "Pibor"
+        ]
+      },
+      {
+        "country": "Spain",
+        "places": [
+          "Madrid",
+          "Barcelona",
+          "Valencia",
+          "Seville",
+          "Granada",
+          "Bilbao",
+          "Malaga",
+          "Alicante",
+          "San Sebastián",
+          "Toledo"
+        ]
+      },
+      {
+        "country": "Sri Lanka",
+        "places": [
+          "Colombo",
+          "Kandy",
+          "Galle",
+          "Jaffna",
+          "Negombo",
+          "Anuradhapura",
+          "Trincomalee",
+          "Batticaloa",
+          "Matara",
+          "Nuwara Eliya"
+        ]
+      },
+      {
+        "country": "Sudan",
+        "places": [
+          "Khartoum",
+          "Omdurman",
+          "Port Sudan",
+          "Nyala",
+          "Wadi Halfa",
+          "Kassala",
+          "El Obeid",
+          "El Fasher",
+          "Dongola",
+          "Juba"
+        ]
+      },
+      {
+        "country": "Suriname",
+        "places": [
+          "Paramaribo",
+          "Nieuw Nickerie",
+          "Moengo",
+          "Brokopondo",
+          "Albina",
+          "Lelydorp",
+          "Domburg",
+          "Totness",
+          "Nickerie",
+          "Sara"
+        ]
+      },
+      {
+        "country": "Sweden",
+        "places": [
+          "Stockholm",
+          "Gothenburg",
+          "Malmö",
+          "Uppsala",
+          "Linköping",
+          "Västerås",
+          "Örebro",
+          "Helsingborg",
+          "Jönköping",
+          "Norrköping"
+        ]
+      },
+      {
+        "country": "Switzerland",
+        "places": [
+          "Zurich",
+          "Geneva",
+          "Bern",
+          "Basel",
+          "Lausanne",
+          "Lucerne",
+          "St. Moritz",
+          "Neuchâtel",
+          "Montreux",
+          "Zug"
+        ]
+      },
+      {
+        "country": "Syria",
+        "places": [
+          "Damascus",
+          "Aleppo",
+          "Homs",
+          "Latakia",
+          "Hama",
+          "Daraa",
+          "Tartus",
+          "Qamishli",
+          "Deir ez-Zor",
+          "Hasakah"
+        ]
+      },
+      {
+        "country": "Taiwan",
+        "places": [
+          "Taipei",
+          "Kaohsiung",
+          "Taichung",
+          "Tainan",
+          "Hsinchu",
+          "Chiayi",
+          "Keelung",
+          "Miaoli",
+          "Pingtung",
+          "Yilan"
+        ]
+      },
+      {
+        "country": "Tajikistan",
+        "places": [
+          "Dushanbe",
+          "Khujand",
+          "Khorugh",
+          "Istaravshan",
+          "Kurgan-Tyube",
+          "Gissar",
+          "Tursunzoda",
+          "Vahdat",
+          "Qurghonteppa",
+          "Panjakent"
+        ]
+      },
+      {
+        "country": "Tanzania",
+        "places": [
+          "Dodoma",
+          "Dar es Salaam",
+          "Arusha",
+          "Mbeya",
+          "Mwanza",
+          "Tanga",
+          "Kigoma",
+          "Zanzibar City",
+          "Mtwara",
+          "Morogoro"
+        ]
+      },
+      {
+        "country": "Thailand",
+        "places": [
+          "Bangkok",
+          "Chiang Mai",
+          "Phuket",
+          "Pattaya",
+          "Hua Hin",
+          "Khon Kaen",
+          "Nakhon Ratchasima",
+          "Udon Thani",
+          "Songkhla",
+          "Surat Thani"
+        ]
+      },
+      {
+        "country": "Timor-Leste",
+        "places": [
+          "Dili",
+          "Baucau",
+          "Viqueque",
+          "Oecussi",
+          "Maliana",
+          "Lospalos",
+          "Ermera",
+          "Suai",
+          "Atauro",
+          "Liquica"
+        ]
+      },
+      {
+        "country": "Togo",
+        "places": [
+          "Lomé",
+          "Sokodé",
+          "Kara",
+          "Atakpamé",
+          "Tchaoudjo",
+          "Kpalimé",
+          "Tsévié",
+          "Bassar",
+          "Notsé",
+          "Dapaong"
+        ]
+      },
+      {
+        "country": "Tonga",
+        "places": [
+          "Nukuʻalofa",
+          "Vavaʻu",
+          "Haʻapai",
+          "Tongatapu",
+          "Eua",
+          "Ongo Niua",
+          "Niuafoʻou",
+          "Niuatoputapu",
+          "Foa",
+          "Mangaia"
+        ]
+      },
+      {
+        "country": "Trinidad and Tobago",
+        "places": [
+          "Port of Spain",
+          "San Fernando",
+          "Scarborough",
+          "Chaguanas",
+          "Arima",
+          "Point Fortin",
+          "Princes Town",
+          "Tunapuna",
+          "Diego Martin",
+          "Siparia"
+        ]
+      },
+      {
+        "country": "Tunisia",
+        "places": [
+          "Tunis",
+          "Sfax",
+          "Sousse",
+          "Kairouan",
+          "Bizerte",
+          "Gabès",
+          "Ariana",
+          "La Marsa",
+          "Nabeul",
+          "Monastir"
+        ]
+      },
+      {
+        "country": "Turkey",
+        "places": [
+          "Istanbul",
+          "Ankara",
+          "Izmir",
+          "Antalya",
+          "Bursa",
+          "Adana",
+          "Konya",
+          "Gaziantep",
+          "Sanliurfa",
+          "Mersin"
+        ]
+      },
+      {
+        "country": "Turkmenistan",
+        "places": [
+          "Ashgabat",
+          "Turkmenabat",
+          "Mary",
+          "Dasoguz",
+          "Balkanabat",
+          "Tejen",
+          "Serdar",
+          "Turkmenbashi",
+          "Bayramaly",
+          "Gyorogly"
+        ]
+      },
+      {
+        "country": "Tuvalu",
+        "places": [
+          "Funafuti",
+          "Vaitupu",
+          "Niulakita",
+          "Nanumea",
+          "Nanumaga",
+          "Nui",
+          "Nukufetau",
+          "Nukulaelae",
+          "Teafaiva",
+          "Teone"
+        ]
+      },
+      {
+        "country": "Uganda",
+        "places": [
+          "Kampala",
+          "Entebbe",
+          "Jinja",
+          "Mbarara",
+          "Masaka",
+          "Gulu",
+          "Mbale",
+          "Kabale",
+          "Lira",
+          "Soroti"
+        ]
+      },
+      {
+        "country": "Ukraine",
+        "places": [
+          "Kyiv",
+          "Kharkiv",
+          "Odesa",
+          "Dnipro",
+          "Lviv",
+          "Zaporizhzhia",
+          "Kryvyi Rih",
+          "Mykolaiv",
+          "Vinnytsia",
+          "Chernihiv"
+        ]
+      },
+      {
+        "country": "United Arab Emirates",
+        "places": [
+          "Abu Dhabi",
+          "Dubai",
+          "Sharjah",
+          "Ajman",
+          "Ras al-Khaimah",
+          "Fujairah",
+          "Umm al-Quwain",
+          "Al Ain",
+          "Khor Fakkan",
+          "Dibba Al-Fujairah"
+        ]
+      },
+      {
+        "country": "United Kingdom",
+        "places": [
+          "London",
+          "Birmingham",
+          "Manchester",
+          "Glasgow",
+          "Liverpool",
+          "Edinburgh",
+          "Bristol",
+          "Leeds",
+          "Sheffield",
+          "Cardiff"
+        ]
+      },
+      {
+        "country": "United States",
+        "places": [
+          "New York",
+          "Los Angeles",
+          "Chicago",
+          "Houston",
+          "Phoenix",
+          "Philadelphia",
+          "San Antonio",
+          "San Diego",
+          "Dallas",
+          "San Jose"
+        ]
+      },
+      {
+        "country": "Uruguay",
+        "places": [
+          "Montevideo",
+          "Salto",
+          "Paysandú",
+          "Ciudad del Plata",
+          "Rivera",
+          "Tacuarembó",
+          "Melo",
+          "Durazno",
+          "Canelones",
+          "San José"
+        ]
+      },
+      {
+        "country": "Uzbekistan",
+        "places": [
+          "Tashkent",
+          "Samarkand",
+          "Bukhara",
+          "Namangan",
+          "Andijan",
+          "Fergana",
+          "Nukus",
+          "Termez",
+          "Jizzakh",
+          "Khiva"
+        ]
+      },
+      {
+        "country": "Vanuatu",
+        "places": [
+          "Port Vila",
+          "Luganville",
+          "Tanna",
+          "Espiritu Santo",
+          "Malekula",
+          "Emae",
+          "Aneityum",
+          "Pentecost",
+          "Vanua Lava",
+          "Anatom"
+        ]
+      },
+      {
+        "country": "Vatican City",
+        "places": [
+          "Vatican City"
+        ]
+      },
+      {
+        "country": "Venezuela",
+        "places": [
+          "Caracas",
+          "Maracaibo",
+          "Valencia",
+          "Barquisimeto",
+          "Ciudad Guayana",
+          "Mérida",
+          "San Cristóbal",
+          "Puerto Ordaz",
+          "Maturín",
+          "El Tigre"
+        ]
+      },
+      {
+        "country": "Vietnam",
+        "places": [
+          "Hanoi",
+          "Ho Chi Minh City",
+          "Da Nang",
+          "Hai Phong",
+          "Nha Trang",
+          "Hue",
+          "Can Tho",
+          "Vung Tau",
+          "Rach Gia",
+          "Quy Nhon"
+        ]
+      },
+      {
+        "country": "Yemen",
+        "places": [
+          "Sana'a",
+          "Aden",
+          "Taiz",
+          "Hodeida",
+          "Ibb",
+          "Mukalla",
+          "Dhamar",
+          "Al Hudaydah",
+          "Lahij",
+          "Marib"
+        ]
+      },
+      {
+        "country": "Zambia",
+        "places": [
+          "Lusaka",
+          "Kitwe",
+          "Ndola",
+          "Livingstone",
+          "Chipata",
+          "Mufulira",
+          "Kasama",
+          "Chingola",
+          "Solwezi",
+          "Kabwe"
+        ]
+      },
+      {
+        "country": "Zimbabwe",
+        "places": [
+          "Harare",
+          "Bulawayo",
+          "Mutare",
+          "Gweru",
+          "Kwekwe",
+          "Masvingo",
+          "Chinhoyi",
+          "Bindura",
+          "Kariba",
+          "Victoria Falls"
+        ]
+      }
+    ]
+}

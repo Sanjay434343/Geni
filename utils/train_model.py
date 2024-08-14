@@ -6,6 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import SGD
+import os
 
 # Download NLTK resources
 nltk.download('punkt')
@@ -14,13 +15,20 @@ nltk.download('wordnet')
 # Initialize lemmatizer
 lemmatizer = WordNetLemmatizer()
 
-# Load intents
-try:
-    with open('intents.json') as file:
-        intents = json.load(file)
-except json.JSONDecodeError as e:
-    print(f"Error loading JSON: {e}")
-    raise
+# Load intents with enhanced error handling
+def load_json_file(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            return json.load(file)
+    except json.JSONDecodeError as e:
+        print(f"Error loading JSON: {e}")
+        raise
+    except Exception as e:
+        print(f"Unexpected error: {e}")
+        raise
+
+# Load the intents
+intents = load_json_file('intents.json')
 
 words = []
 classes = []
@@ -71,7 +79,7 @@ model.add(Dense(len(classes), activation='softmax'))
 model.compile(optimizer=SGD(learning_rate=0.01, momentum=0.9), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 # Train the model
-model.fit(training_sentences, training_labels, epochs=1000, batch_size=10, verbose=1)
+model.fit(training_sentences, training_labels, epochs=200, batch_size=10, verbose=1)
 
 # Save the model
 model.save('chatbot_model.h5')

@@ -6747,3 +6747,295 @@
       ]
     }
   ]
+ {
+                          "intent": "usa",
+                          "text": [
+                            "Best universities in the United States",
+                            "Top universities in the USA"
+                          ],
+                          "responses": [
+                            {
+                              "United States - description": "Some of the best universities in the United States include Harvard University, Stanford University, and MIT. These institutions are renowned for their research, faculty, and academic excellence."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "uk",
+                          "text": [
+                            "Top universities in the UK",
+                            "Best universities in the United Kingdom"
+                          ],
+                          "responses": [
+                            {
+                              "United Kingdom - description": "Top universities in the UK include University of Oxford, University of Cambridge, and Imperial College London. They are known for their historical significance and high academic standards."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "canada",
+                          "text": [
+                            "Best universities in Canada",
+                            "Top universities in Canada"
+                          ],
+                          "responses": [
+                            {
+                              "Canada - description": "Leading universities in Canada include the University of Toronto, the University of British Columbia, and McGill University. These institutions are recognized for their research capabilities and diverse programs."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "australia",
+                          "text": [
+                            "Best universities in Australia",
+                            "Top universities in Australia"
+                          ],
+                          "responses": [
+                            {
+                              "Australia - description": "Some top universities in Australia are the University of Melbourne, Australian National University, and the University of Sydney. They are known for their strong research programs and academic reputation."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "germany",
+                          "text": [
+                            "Best universities in Germany",
+                            "Top universities in Germany"
+                          ],
+                          "responses": [
+                            {
+                              "Germany - description": "Top universities in Germany include Ludwig Maximilian University of Munich, Heidelberg University, and Technical University of Berlin. These institutions are recognized for their research and academic excellence."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "france",
+                          "text": [
+                            "Best universities in France",
+                            "Top universities in France"
+                          ],
+                          "responses": [
+                            {
+                              "France - description": "Leading universities in France include Sorbonne University, University of Paris-Saclay, and École Normale Supérieure. These universities are known for their strong academic programs and research contributions."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "china",
+                          "text": [
+                            "Best universities in China",
+                            "Top universities in China"
+                          ],
+                          "responses": [
+                            {
+                              "China - description": "Top universities in China include Tsinghua University, Peking University, and Fudan University. These institutions are recognized for their research and academic programs."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "india",
+                          "text": [
+                            "Best universities in India",
+                            "Top universities in India"
+                          ],
+                          "responses": [
+                            {
+                              "India - description": "Leading universities in India include the Indian Institute of Technology Bombay, the Indian Institute of Science, and the University of Delhi. These institutions are known for their engineering, science, and arts programs."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "japan",
+                          "text": [
+                            "Best universities in Japan",
+                            "Top universities in Japan"
+                          ],
+                          "responses": [
+                            {
+                              "Japan - description": "Some top universities in Japan are the University of Tokyo, Kyoto University, and Osaka University. These institutions are known for their research and technological advancements."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "south_korea",
+                          "text": [
+                            "Best universities in South Korea",
+                            "Top universities in South Korea"
+                          ],
+                          "responses": [
+                            {
+                              "South Korea - description": "Leading universities in South Korea include Seoul National University, KAIST, and POSTECH. These universities are recognized for their research and academic programs."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "brazil",
+                          "text": [
+                            "Best universities in Brazil",
+                            "Top universities in Brazil"
+                          ],
+                          "responses": [
+                            {
+                              "Brazil - description": "Top universities in Brazil include the University of São Paulo, Federal University of Rio de Janeiro, and University of Campinas. These institutions are known for their research and academic excellence in Latin America."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "south_africa",
+                          "text": [
+                            "Best universities in South Africa",
+                            "Top universities in South Africa"
+                          ],
+                          "responses": [
+                            {
+                              "South Africa - description": "Leading universities in South Africa include the University of Cape Town, University of the Witwatersrand, and Stellenbosch University. These institutions are recognized for their research and diverse academic programs."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "russia",
+                          "text": [
+                            "Best universities in Russia",
+                            "Top universities in Russia"
+                          ],
+                          "responses": [
+                            {
+                              "Russia - description": "Some of the best universities in Russia include Lomonosov Moscow State University, Saint Petersburg State University, and Novosibirsk State University. These institutions are known for their strong research and academic programs."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "italy",
+                          "text": [
+                            "Best universities in Italy",
+                            "Top universities in Italy"
+                          ],
+                          "responses": [
+                            {
+                              "Italy - description": "Top universities in Italy include the University of Bologna, Sapienza University of Rome, and Politecnico di Milano. These institutions are recognized for their historical significance and academic excellence."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "netherlands",
+                          "text": [
+                            "Best universities in the Netherlands",
+                            "Top universities in the Netherlands"
+                          ],
+                          "responses": [
+                            {
+                              "Netherlands - description": "Leading universities in the Netherlands include the University of Amsterdam, Delft University of Technology, and Utrecht University. These institutions are known for their research and innovative programs."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "sweden",
+                          "text": [
+                            "Best universities in Sweden",
+                            "Top universities in Sweden"
+                          ],
+                          "responses": [
+                            {
+                              "Sweden - description": "Some top universities in Sweden are Karolinska Institute, Uppsala University, and Lund University. These institutions are recognized for their research and academic programs."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "switzerland",
+                          "text": [
+                            "Best universities in Switzerland",
+                            "Top universities in Switzerland"
+                          ],
+                          "responses": [
+                            {
+                              "Switzerland - description": "Top universities in Switzerland include ETH Zurich, University of Zurich, and EPFL. These institutions are known for their research and high academic standards."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "spain",
+                          "text": [
+                            "Best universities in Spain",
+                            "Top universities in Spain"
+                          ],
+                          "responses": [
+                            {
+                              "Spain - description": "Leading universities in Spain include the University of Barcelona, Autonomous University of Madrid, and University of Valencia. These institutions are recognized for their academic programs and research contributions."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "norway",
+                          "text": [
+                            "Best universities in Norway",
+                            "Top universities in Norway"
+                          ],
+                          "responses": [
+                            {
+                              "Norway - description": "Some top universities in Norway are the University of Oslo, Norwegian University of Science and Technology, and University of Bergen. These institutions are known for their research and academic excellence."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "finland",
+                          "text": [
+                            "Best universities in Finland",
+                            "Top universities in Finland"
+                          ],
+                          "responses": [
+                            {
+                              "Finland - description": "Top universities in Finland include the University of Helsinki, Aalto University, and Tampere University. These institutions are recognized for their research and innovative academic programs."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "denmark",
+                          "text": [
+                            "Best universities in Denmark",
+                            "Top universities in Denmark"
+                          ],
+                          "responses": [
+                            {
+                              "Denmark - description": "Leading universities in Denmark include the University of Copenhagen, Aarhus University, and Technical University of Denmark. These institutions are known for their research and academic excellence."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "belgium",
+                          "text": [
+                            "Best universities in Belgium",
+                            "Top universities in Belgium"
+                          ],
+                          "responses": [
+                            {
+                              "Belgium - description": "Some top universities in Belgium are KU Leuven, Ghent University, and University of Liège. These institutions are recognized for their research and academic programs."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "austria",
+                          "text": [
+                            "Best universities in Austria",
+                            "Top universities in Austria"
+                          ],
+                          "responses": [
+                            {
+                              "Austria - description": "Top universities in Austria include the University of Vienna, Vienna University of Technology, and University of Innsbruck. These institutions are known for their research and academic standards."
+                            }
+                          ]
+                        },
+                        {
+                          "intent": "ireland",
+                          "text": [
+                            "Best universities in Ireland",
+                            "Top universities in Ireland"
+                          ],
+                          "responses": [
+                            {
+                              "Ireland - description": "Leading universities in Ireland include Trinity College Dublin, University College Dublin, and National University of Ireland, Galway. These institutions are recognized for their research and academic programs."
+                            }
+                          ]
+                        }
+                      
+                      
+                      
+                      

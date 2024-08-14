@@ -8,6 +8,7 @@ from nltk.stem import WordNetLemmatizer
 import random
 import requests
 from datetime import datetime
+import codecs  # Import codecs module for explicit decoding
 
 app = Flask(__name__)
 
@@ -15,7 +16,9 @@ app = Flask(__name__)
 model = tf.keras.models.load_model('chatbot_model.h5')
 
 lemmatizer = WordNetLemmatizer()
-with open('intents.json') as file:
+
+# Load intents from JSON file with explicit UTF-8 encoding
+with codecs.open('intents.json', 'r', encoding='utf-8') as file:
     intents = json.load(file)
 
 words = []
@@ -23,19 +26,23 @@ classes = []
 documents = []
 
 for intent in intents['intents']:
-    for pattern in intent['text']:
-        word_list = nltk.word_tokenize(pattern)
-        words.extend(word_list)
-        documents.append((word_list, intent['intent']))
-        if intent['intent'] not in classes:
-            classes.append(intent['intent'])
+    try:
+        for pattern in intent['text']:
+            word_list = nltk.word_tokenize(pattern)
+            words.extend(word_list)
+            documents.append((word_list, intent['intent']))
+            if intent['intent'] not in classes:
+                classes.append(intent['intent'])
+    except KeyError as e:
+        print(f"Missing key in intent: {e}")
+        continue
 
-words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ['?', '!' , '€']]
+words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ['?', '!', '€']]
 words = sorted(list(set(words)))
 classes = sorted(list(set(classes)))
 
 # Special symbols to ignore or replace
-SYMBOLS_TO_IGNORE = ['®', '™' , '€']
+SYMBOLS_TO_IGNORE = ['®', '™', '€']
 
 @app.route('/')
 def home():
